@@ -1,0 +1,5060 @@
+DEBUG:paramiko.transport:starting thread (client mode): 0x47d6410
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-1.25
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.7.204: b'05384a3f4a8e6e8de2eef7764fec9eaf'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: terminal\ length\ 0
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: erminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ length\ 0 terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: terminal\ width\ 511
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: erminal width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ width\ 511 terminal width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:paramiko.transport:starting thread (client mode): 0x111b74d0
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-1.25
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.7.204: b'05384a3f4a8e6e8de2eef7764fec9eaf'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: terminal\ length\ 0
+DEBUG:netmiko:_read_channel_expect read_data: te
+DEBUG:netmiko:_read_channel_expect read_data: rminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ length\ 0 terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: terminal\ width\ 511
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: erminal width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ width\ 511 terminal width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1>
+DEBUG:netmiko:write_channel: b'enable\n'
+DEBUG:netmiko:Pattern is: (HRUST\-A206\-SR\-1|ssword)
+DEBUG:netmiko:_read_channel_expect read_data: e
+DEBUG:netmiko:_read_channel_expect read_data: nable
+Password: 
+DEBUG:netmiko:Pattern found: (HRUST\-A206\-SR\-1|ssword) enable
+Password: 
+DEBUG:netmiko:write_channel: b'1111\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+% Access denied
+
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+% Access denied
+
+HRUST-A206-SR-1>
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1>
+DEBUG:paramiko.transport:starting thread (client mode): 0x10c81650
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-1.25
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 192.168.7.204: b'05384a3f4a8e6e8de2eef7764fec9eaf'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: terminal\ length\ 0
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: erminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ length\ 0 terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: terminal\ width\ 511
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: erminal width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ width\ 511 terminal width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1>
+DEBUG:netmiko:write_channel: b'enable\n'
+DEBUG:netmiko:Pattern is: (HRUST\-A206\-SR\-1|ssword)
+DEBUG:netmiko:_read_channel_expect read_data: e
+DEBUG:netmiko:_read_channel_expect read_data: nable
+Password: 
+DEBUG:netmiko:Pattern found: (HRUST\-A206\-SR\-1|ssword) enable
+Password: 
+DEBUG:netmiko:write_channel: b'Gudodd2010\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+HRUST-A206-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A206-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A206-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'sh run\n'
+DEBUG:netmiko:Pattern is: sh\ run
+DEBUG:netmiko:_read_channel_expect read_data: s
+DEBUG:netmiko:_read_channel_expect read_data: h run
+Building configuration...
+
+DEBUG:netmiko:Pattern found: sh\ run sh run
+Building configuration...
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Current configuration : 15554 bytes
+!
+! Last configuration change at 13:06:31 MSK Mon Apr 27 2020 by Cisco
+! NVRAM config last updated at 11:59:53 MSK Mon Mar 30 2020 by cisco
+!
+version 15.2
+no service pad
+service timestamps debug datetime msec localtime show-timezone
+service timestamps log datetime msec localtime show-timezone
+service password-encryption
+service compress-config
+service unsupported-transceiver
+!
+hostname HRUST-A206-SR-1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+enable secret 5 $1$PJ57$cKxZaNvVM8d8eVMCsleVn/
+!
+username Cisco secret 5 $1$kAZS$ZW0TaMFZa7ErKApv666LT1
+aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone MSK 3 0
+switch 1 provision ws-c3850-24s
+switch 2 provision ws-c3850-24t
+!
+!
+!
+!
+!
+coap http enable
+!
+!
+!
+!
+!
+!
+ip routing
+!
+ip multicast-routing 
+no ip domain-lookup
+ip domain-name cudd.local
+!
+!
+qos queue-softmax-multiplier 100
+!
+crypto pki trustpoint TP-self-signed-3376449872
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3376449872
+ revocation-check none
+ rsakeypair TP-self-signed-3376449872
+!
+!
+crypto pki certificate chain TP-self-signed-3376449872
+ certificate self-signed 01
+  3082022B 30820194 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 33333736 34343938 3732301E 170D3136 31323231 31323333 
+  33345A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D33 33373634 
+  34393837 3230819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100C0AB D4DCFF92 BBCD81F7 19A50B68 A9EF9E07 2BEA9228 8C353E4F 0641BD25 
+  D94716FD 6A292538 6C8B882E BEE760EC B0BB448B 253A04EB 88221B66 862313D3 
+  CC8471E6 CADF140C 81B4E8D0 EB0F6DCF E9043261 CC43CEAD 667FA4A7 D3A7DDB9 
+  96FDB1B3 F6137AFD DADCF9B6 0E825B3A 3A16C9C9 9B0CE0E3 B2E3A894 9B3B376E 
+  00850203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF 301F0603 
+  551D2304 18301680 148B7966 520EF124 B0FC4860 E3FAF3CC 9CEF3E1D D7301D06 
+  03551D0E 04160414 8B796652 0EF124B0 FC4860E3 FAF3CC9C EF3E1DD7 300D0609 
+  2A864886 F70D0101 05050003 8181002E 5AFB05BB F25A57BD 847933D5 24A91758 
+  96092308 5B1C7E69 8F2F59D2 95AB9E50 48511988 78BDFF59 DED1424D 709A4EBD 
+  71CFAB0E FAFBAC7F C965888E 458BF2B8 70D3E2BA 8C581F3A C5E59405 5AE8B770 
+  13B1D8F7 AFCCB885 1D99D497 CA6FC4E6 0705ED87 E2D276DA 8D73FC3B 6912DA05 
+  6060D985 1F6312FD 75DD98D4 E6E15F
+  	quit
+no errdisable detect cause gbic-invalid
+no errdisable detect cause sfp-config-mismatch
+errdisable recovery cause loopback
+diagnostic bootup level minimal
+archive
+ log config
+  logging enable
+  hidekeys
+ path ftp://192.168.9.19/cisco/conf/$H-$T
+ write-memory
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+no spanning-tree vlan 505,521
+hw-switch switch 1 logging onboard message level 3
+hw-switch switch 2 logging onboard message level 3
+!
+redundancy
+ mode sso
+!
+!
+vlan 2020
+ name PSKR-VBRG-PRSV
+!
+vlan 2021
+ name KNTM
+!
+vlan 2023 
+!
+vlan 2025
+ name CNTR
+!
+vlan 2026 
+!
+vlan 2395
+ name SVKN
+!
+!
+class-map match-any non-client-nrt-class
+!
+policy-map port_child_policy
+ class non-client-nrt-class
+  bandwidth remaining ratio 10
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 172.18.255.1 255.255.255.255
+!
+interface Port-channel1
+ description Salova66
+ switchport mode trunk
+!
+interface Port-channel2
+ description LIT_B:Cisco_ME3400
+ switchport trunk allowed vlan 10,17,20,24,170,254
+ switchport mode trunk
+!
+interface Port-channel10
+ description TEMP_TO_CORE
+ switchport mode trunk
+!
+interface Tunnel1
+ ip address 192.168.170.1 255.255.255.252
+ ip tcp adjust-mss 1438
+ tunnel source Vlan101
+ tunnel destination 10.0.50.190
+!
+interface Tunnel10
+ ip address 192.168.170.5 255.255.255.252
+ ip tcp adjust-mss 1100
+ tunnel source Vlan101
+ tunnel destination 10.0.49.32
+!
+interface Tunnel15
+ ip address 192.168.170.17 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.64
+!
+interface Tunnel16
+ ip address 192.168.170.21 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.41
+!
+interface Tunnel17
+ ip address 192.168.170.25 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.46
+!
+interface Tunnel18
+ ip address 192.168.170.29 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.207
+!
+interface Tunnel19
+ ip address 192.168.170.33 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.138
+!
+interface Tunnel20
+ ip address 192.168.170.37 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.137
+!
+interface Tunnel21
+ ip address 192.168.170.41 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.136
+!
+interface Tunnel22
+ ip address 192.168.170.85 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.74
+!
+interface Tunnel23
+ ip address 192.168.170.45 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.104
+!
+interface Tunnel24
+ ip address 192.168.170.49 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.91
+!
+interface Tunnel25
+ ip address 192.168.170.81 255.255.255.252
+ ip tcp adjust-mss 1232
+ tunnel source Vlan101
+ tunnel destination 10.0.48.73
+!
+interface Tunnel26
+ ip address 192.168.170.53 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.22
+!
+interface Tunnel27
+ ip address 192.168.170.57 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.192
+!
+interface Tunnel28
+ ip address 192.168.170.61 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.49
+!
+interface Tunnel29
+ ip address 192.168.170.65 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.28
+!
+interface Tunnel30
+ ip address 192.168.170.69 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.76
+!
+interface Tunnel31
+ ip address 192.168.170.73 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.52.62
+!
+interface Tunnel32
+ ip address 192.168.170.77 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.194
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ no ip address
+ negotiation auto
+!
+interface GigabitEthernet1/0/1
+ description MEGAFON_VPLS
+ switchport trunk allowed vlan 217,925,2020,2023,2025
+ switchport mode trunk
+ no cdp enable
+!
+interface GigabitEthernet1/0/2
+!
+interface GigabitEthernet1/0/3
+ switchport trunk allowed vlan 510,582
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/4
+ description BO_LEFT_SIDE
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/5
+!
+interface GigabitEthernet1/0/6
+!
+interface GigabitEthernet1/0/7
+ description EMTS_VPLS
+ switchport trunk allowed vlan 521,2026
+ switchport mode trunk
+ no cdp enable
+ spanning-tree bpdufilter enable
+!
+interface GigabitEthernet1/0/8
+!
+interface GigabitEthernet1/0/9
+!
+interface GigabitEthernet1/0/10
+!
+interface GigabitEthernet1/0/11
+!
+interface GigabitEthernet1/0/12
+!
+interface GigabitEthernet1/0/13
+!
+interface GigabitEthernet1/0/14
+!
+interface GigabitEthernet1/0/15
+!
+interface GigabitEthernet1/0/16
+!
+interface GigabitEthernet1/0/17
+ switchport access vlan 24
+ switchport mode access
+ shutdown
+!
+interface GigabitEthernet1/0/18
+ switchport access vlan 24
+ switchport mode access
+ shutdown
+!
+interface GigabitEthernet1/0/19
+!
+interface GigabitEthernet1/0/20
+ description s33-hrustalnaya22b.nev:gig0/0/3
+ switchport trunk allowed vlan 101,120,170,472,488
+ switchport mode trunk
+ no cdp enable
+!
+interface GigabitEthernet1/0/21
+ switchport trunk allowed vlan 10,17,20,24,170,254
+ switchport mode trunk
+ channel-group 2 mode active
+!
+interface GigabitEthernet1/0/22
+ description LIT_B
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/23
+ switchport mode trunk
+ channel-group 1 mode active
+!
+interface GigabitEthernet1/0/24
+ switchport mode trunk
+ channel-group 1 mode active
+!
+interface GigabitEthernet1/1/1
+!
+interface GigabitEthernet1/1/2
+!
+interface GigabitEthernet1/1/3
+!
+interface GigabitEthernet1/1/4
+!
+interface TenGigabitEthernet1/1/1
+!
+interface TenGigabitEthernet1/1/2
+!
+interface TenGigabitEthernet1/1/3
+!
+interface TenGigabitEthernet1/1/4
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/1
+ description SOFIYSKAY
+ switchport access vlan 498
+ switchport mode access
+!
+interface GigabitEthernet2/0/2
+ description SOFIYSKAY
+ switchport access vlan 498
+ switchport mode access
+!
+interface GigabitEthernet2/0/3
+ description NARODNAYA-TIPANOVA-SLAVI
+ switchport access vlan 497
+ switchport mode access
+!
+interface GigabitEthernet2/0/4
+ description MTS_PETERGOFSKOE
+ switchport access vlan 505
+ switchport mode access
+ no cdp enable
+ spanning-tree portfast trunk
+!
+interface GigabitEthernet2/0/5
+ switchport access vlan 20
+ switchport mode access
+!
+interface GigabitEthernet2/0/6
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/7
+ switchport access vlan 20
+ switchport mode access
+!
+interface GigabitEthernet2/0/8
+ switchport access vlan 25
+ switchport mode access
+!
+interface GigabitEthernet2/0/9
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/10
+ description HRUST-A302-SW-1
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/11
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/12
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/13
+ description ENDURA-HD-DECODER-1
+ switchport access vlan 25
+ switchport mode access
+!
+interface GigabitEthernet2/0/14
+ description AVAYA_VOIP
+ switchport access vlan 472
+ switchport mode access
+ no cdp enable
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/15
+ switchport access vlan 521
+!
+interface GigabitEthernet2/0/16
+!
+interface GigabitEthernet2/0/17
+ switchport trunk native vlan 20
+ switchport trunk allowed vlan 20,25,26
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/18
+ shutdown
+!
+interface GigabitEthernet2/0/19
+ switchport trunk native vlan 20
+ switchport trunk allowed vlan 2-21,23-26,101,254,498,1122,2020
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/20
+ shutdown
+!
+interface GigabitEthernet2/0/21
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/22
+ switchport access vlan 506
+ switchport mode access
+!
+interface GigabitEthernet2/0/23
+ switchport mode trunk
+ channel-group 10 mode active
+!
+interface GigabitEthernet2/0/24
+ switchport mode trunk
+ channel-group 10 mode active
+!
+interface GigabitEthernet2/1/1
+!
+interface GigabitEthernet2/1/2
+!
+interface GigabitEthernet2/1/3
+!
+interface GigabitEthernet2/1/4
+!
+interface TenGigabitEthernet2/1/1
+!
+interface TenGigabitEthernet2/1/2
+!
+interface TenGigabitEthernet2/1/3
+!
+interface TenGigabitEthernet2/1/4
+ no switchport
+ no ip address
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan10
+ ip address 172.16.10.2 255.255.255.0
+ ip pim sparse-mode
+!
+interface Vlan11
+ description was_192.168.142.47
+ ip address 172.16.16.1 255.255.255.0
+!
+interface Vlan15
+ ip address 192.168.9.2 255.255.255.0
+!
+interface Vlan18
+ ip address 192.168.80.233 255.255.255.0
+ shutdown
+!
+interface Vlan19
+ ip address 192.168.101.1 255.255.255.0
+!
+interface Vlan20
+ ip address 192.168.7.204 255.255.252.0
+!
+interface Vlan101
+ ip address 10.0.55.120 255.255.255.192
+!
+interface Vlan120
+ no ip address
+!
+interface Vlan170
+ ip address 10.217.9.240 255.255.255.192
+!
+interface Vlan210
+ no ip address
+ ip pim dense-mode
+!
+interface Vlan217
+ ip address 172.18.21.1 255.255.255.0
+!
+interface Vlan251
+ no ip address
+!
+interface Vlan488
+ ip address 10.6.128.163 255.255.255.240
+!
+interface Vlan497
+ ip address 172.18.11.1 255.255.255.0
+!
+interface Vlan500
+ ip address 172.18.14.1 255.255.255.0
+!
+interface Vlan505
+ ip address 172.18.2.1 255.255.255.0
+ ip helper-address 192.168.9.251
+!
+interface Vlan506
+ ip address 172.18.22.1 255.255.255.0
+!
+interface Vlan507
+ ip address 172.18.23.1 255.255.255.0
+!
+interface Vlan508
+ no ip address
+!
+interface Vlan510
+ ip address 172.18.25.1 255.255.255.0
+ ip helper-address 192.168.9.251
+!
+interface Vlan511
+ ip address 172.18.17.1 255.255.255.0
+!
+interface Vlan521
+ no ip address
+ no ip proxy-arp
+!
+interface Vlan554
+ no ip address
+!
+interface Vlan581
+ ip address 172.18.50.1 255.255.255.0
+!
+interface Vlan582
+ ip address 172.18.51.1 255.255.255.0
+!
+interface Vlan925
+ ip address 172.18.52.1 255.255.255.0
+!
+interface Vlan2020
+ ip address 172.16.11.1 255.255.255.252
+ ip pim sparse-mode
+!
+interface Vlan2026
+ no ip address
+!
+router ospf 1
+ router-id 172.18.255.1
+ area 1 virtual-link 3.3.3.3
+ passive-interface Vlan15
+ network 172.16.11.0 0.0.0.255 area 1
+ network 172.16.0.0 0.0.255.255 area 0
+ network 172.18.52.0 0.0.0.255 area 0
+ network 172.0.0.0 0.255.255.255 area 1
+ network 192.168.0.0 0.0.255.255 area 0
+!
+ip forward-protocol nd
+ip pim rp-address 172.18.255.10
+ip pim bsr-candidate Vlan2020 0
+ip http server
+ip http authentication local
+ip http secure-server
+!
+ip ftp username cisco
+ip ftp password 7 052C130B2E484A5B495447
+ip route 0.0.0.0 0.0.0.0 172.16.10.4
+ip route 10.0.48.0 255.255.248.0 10.0.55.65
+ip route 10.128.0.0 255.255.0.0 192.168.7.210
+ip route 10.248.51.0 255.255.255.0 10.0.64.65
+ip route 172.16.200.0 255.255.255.0 192.168.9.254
+ip route 172.17.10.0 255.255.255.0 192.168.7.201
+ip route 172.18.14.0 255.255.255.0 192.168.9.10
+ip route 172.19.5.224 255.255.255.240 192.168.170.78
+ip route 172.19.13.176 255.255.255.240 192.168.170.82
+ip route 172.19.13.192 255.255.255.240 192.168.170.86
+ip route 172.19.14.64 255.255.255.240 192.168.170.70
+ip route 172.19.16.112 255.255.255.240 192.168.170.22
+ip route 172.19.16.160 255.255.255.240 192.168.170.6
+ip route 172.19.18.128 255.255.255.240 192.168.170.54
+ip route 172.19.18.160 255.255.255.240 192.168.170.26
+ip route 172.19.19.32 255.255.255.240 192.168.170.74
+ip route 172.19.19.48 255.255.255.240 192.168.170.66
+ip route 172.19.19.192 255.255.255.240 192.168.170.18
+ip route 172.19.20.112 255.255.255.240 192.168.170.58
+ip route 172.19.21.240 255.255.255.240 192.168.170.62
+ip route 172.19.23.208 255.255.255.240 192.168.170.34
+ip route 172.19.23.224 255.255.255.240 192.168.170.42
+ip route 172.19.23.240 255.255.255.240 192.168.170.38
+ip route 172.19.24.16 255.255.255.240 192.168.170.50
+ip route 172.19.26.112 255.255.255.240 192.168.170.46
+ip route 172.19.222.0 255.255.255.0 192.168.170.30
+ip route 172.19.253.0 255.255.255.240 192.168.170.2
+!
+!
+logging facility local3
+logging host 172.16.10.250
+!
+snmp-server community a4fa17d8fb RO
+!
+!
+!
+!
+!
+line con 0
+ stopbits 1
+line aux 0
+ stopbits 1
+line vty 0 4
+ exec-timeout 90 0
+ logging synchronous
+ transport input ssh
+line vty 5 15
+!
+ntp master 2
+ntp server 172.16.10.254 prefer
+wsma agent exec
+ profile httplistener
+ profile httpslistener
+!
+wsma agent config
+ profile httplistener
+ profile httpslistener
+!
+wsma agent filesys
+ profile httplistener
+ profile httpslistener
+!
+wsma agent notify
+ profile httplistener
+ profile httpslistener
+!
+!
+wsma profile listener httplistener
+ transport http
+!
+wsma profile listener httpslistener
+ transport https
+mac address-table notification mac-move
+!
+ap group default-group
+end
+
+HRUST-A206-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A206-SR-1#
+DEBUG:netmiko:Pattern found: # 
+HRUST-A206-SR-1#
+DEBUG:netmiko:exit_config_mode: 
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:paramiko.transport:starting thread (client mode): 0xb226090
+DEBUG:paramiko.transport:starting thread (client mode): 0xb226090
+DEBUG:paramiko.transport:starting thread (client mode): 0xb226090
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-1.25
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-1.25
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-Cisco-1.25
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha1
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 172.16.10.1: b'458f0300b488144475cc82aa3c28ea35'
+DEBUG:paramiko.transport:kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 172.16.10.3: b'97f5aebc37946db7d99f56b7c62ea564'
+DEBUG:paramiko.transport:kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 172.16.10.2: b'05384a3f4a8e6e8de2eef7764fec9eaf'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: SALOVA-SR-1>
+DEBUG:netmiko:read_channel: 
+HRUST-A207-SR-1>
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+SALOVA-SR-1>
+DEBUG:netmiko:read_channel: 
+HRUST-A207-SR-1>
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is SALOVA-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A207-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: terminal\ length\ 0
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: terminal\ length\ 0
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: terminal\ length\ 0
+DEBUG:netmiko:_read_channel_expect read_data: te
+DEBUG:netmiko:_read_channel_expect read_data: te
+DEBUG:netmiko:_read_channel_expect read_data: erminal lengt
+DEBUG:netmiko:_read_channel_expect read_data: rminal length
+DEBUG:netmiko:_read_channel_expect read_data: rminal leng
+DEBUG:netmiko:_read_channel_expect read_data: h 0
+SALOVA-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ length\ 0 terminal length 0
+SALOVA-SR-1>
+DEBUG:netmiko:terminal length 0
+SALOVA-SR-1>
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: terminal\ width\ 511
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: erminal width 511
+SALOVA-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ width\ 511 terminal width 511
+SALOVA-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: SALOVA\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: SALOVA-SR-1>
+DEBUG:netmiko:Pattern found: SALOVA\-SR\-1 
+SALOVA-SR-1>
+DEBUG:netmiko:write_channel: b'enable\n'
+DEBUG:netmiko:Pattern is: (SALOVA\-SR\-1|ssword)
+DEBUG:netmiko:_read_channel_expect read_data: en
+DEBUG:netmiko:_read_channel_expect read_data: able
+Password: 
+DEBUG:netmiko:Pattern found: (SALOVA\-SR\-1|ssword) enable
+Password: 
+DEBUG:netmiko:write_channel: b'Gudodd2010\n'
+DEBUG:netmiko:Pattern is: SALOVA\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+SALOVA-SR-1#
+DEBUG:netmiko:Pattern found: SALOVA\-SR\-1 
+SALOVA-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: SALOVA\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data:  
+DEBUG:netmiko:_read_channel_expect read_data: SALOVA-SR-1#
+DEBUG:netmiko:Pattern found: SALOVA\-SR\-1 
+SALOVA-SR-1#
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: 0
+HRUST-A207-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ length\ 0 terminal length 0
+HRUST-A207-SR-1>
+DEBUG:netmiko:terminal length 0
+HRUST-A207-SR-1>
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: terminal\ width\ 511
+DEBUG:netmiko:_read_channel_expect read_data: h 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ length\ 0 terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: terminal\ width\ 511
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:read_channel: 
+SALOVA-SR-1#
+DEBUG:netmiko:_read_channel_expect read_data: erminal width 511
+HRUST-A207-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ width\ 511 terminal width 511
+HRUST-A207-SR-1>
+DEBUG:netmiko:_read_channel_expect read_data: erminal 
+DEBUG:netmiko:_read_channel_expect read_data: width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ width\ 511 terminal width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is SALOVA-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A207\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'sh run\n'
+DEBUG:netmiko:Pattern is: sh\ run
+DEBUG:netmiko:_read_channel_expect read_data: s
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A207-SR-1>
+DEBUG:netmiko:Pattern found: HRUST\-A207\-SR\-1 
+HRUST-A207-SR-1>
+DEBUG:netmiko:write_channel: b'enable\n'
+DEBUG:netmiko:Pattern is: (HRUST\-A207\-SR\-1|ssword)
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: e
+DEBUG:netmiko:_read_channel_expect read_data: h run
+Building configuration...
+
+DEBUG:netmiko:Pattern found: sh\ run sh run
+Building configuration...
+
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1>
+DEBUG:netmiko:write_channel: b'enable\n'
+DEBUG:netmiko:Pattern is: (HRUST\-A206\-SR\-1|ssword)
+DEBUG:netmiko:_read_channel_expect read_data: nable
+Password: 
+DEBUG:netmiko:Pattern found: (HRUST\-A207\-SR\-1|ssword) enable
+Password: 
+DEBUG:netmiko:write_channel: b'Gudodd2010\n'
+DEBUG:netmiko:Pattern is: HRUST\-A207\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: e
+DEBUG:netmiko:_read_channel_expect read_data: 
+HRUST-A207-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A207\-SR\-1 
+HRUST-A207-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A207\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: nable
+Password: 
+DEBUG:netmiko:Pattern found: (HRUST\-A206\-SR\-1|ssword) enable
+Password: 
+DEBUG:netmiko:write_channel: b'Gudodd2010\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: 
+HRUST-A206-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+HRUST-A206-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1#
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A207-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A207\-SR\-1 
+HRUST-A207-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1#
+DEBUG:netmiko:read_channel: 
+HRUST-A207-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A206-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A207-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'sh run\n'
+DEBUG:netmiko:Pattern is: sh\ run
+DEBUG:netmiko:_read_channel_expect read_data: s
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'sh run\n'
+DEBUG:netmiko:Pattern is: sh\ run
+DEBUG:netmiko:_read_channel_expect read_data: sh
+DEBUG:netmiko:_read_channel_expect read_data: h run
+Building configuration...
+
+DEBUG:netmiko:Pattern found: sh\ run sh run
+Building configuration...
+
+DEBUG:netmiko:_read_channel_expect read_data:  run
+Building configuration...
+
+DEBUG:netmiko:Pattern found: sh\ run sh run
+Building configuration...
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Current configuration : 7818 bytes
+!
+! Last configuration change at 14:34:15 MSK Thu Apr 23 2020 by cisco
+!
+version 15.2
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+service compress-config
+service unsupported-transceiver
+!
+hostname SALOVA-SR-1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+enable password 7 15351E080B2E2F76786265
+!
+username Cisco privilege 15 password 7 07283448410D1D5747435B
+aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone MSK 3 0
+switch 1 provision ws-c3850-24s
+switch 2 provision ws-c3850-24t
+!
+!
+!
+!
+!
+ip routing
+!
+ip multicast-routing 
+ip domain-name cudd.local
+!
+!
+qos queue-softmax-multiplier 100
+!
+crypto pki trustpoint TP-self-signed-3238065583
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3238065583
+ revocation-check none
+ rsakeypair TP-self-signed-3238065583
+!
+!
+crypto pki certificate chain TP-self-signed-3238065583
+ certificate self-signed 01
+  3082022B 30820194 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 33323338 30363535 3833301E 170D3137 30343231 30393331 
+  34365A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D33 32333830 
+  36353538 3330819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100BE83 CFE80DD5 69E4B1B0 80C962B7 7DFD6E69 4A6CB336 1CDB62B8 CC9D63CF 
+  400BB866 CD0319BD 1E807A68 8DB50042 807A4EC8 2F9941E6 705DB9AF 97EE9C87 
+  A77FF7E2 836FD554 B508E187 C5814032 FA81E030 961A1C42 7A384189 59760191 
+  F9880F0C 357F8056 0019958C B645F0BF C20B1870 D6C0E31F 3A46AF22 4AFB03E8 
+  41570203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF 301F0603 
+  551D2304 18301680 147D56D8 33B92037 D787C08D 70C82844 F98F2CFB 47301D06 
+  03551D0E 04160414 7D56D833 B92037D7 87C08D70 C82844F9 8F2CFB47 300D0609 
+  2A864886 F70D0101 05050003 8181004B 7FFC0AC4 30C46BD4 41AB8F41 6306D330 
+  D7EB92E8 FF65469D 30F0F1ED C2F4480C 8ADC2A75 447F0E49 253D8404 6CE38848 
+  17329EB5 7E663167 9C1F4D15 DE36F77B D5289224 41A47D9D C4D15586 FBE426C2 
+  9BD2539C 0209B7C8 036B264D A982317B 305F7163 CB8EAB4E 7D372999 3C43F8BD 
+  9673CFE8 907B8530 BDFAC170 2A0963
+  	quit
+no errdisable detect cause gbic-invalid
+no errdisable detect cause sfp-config-mismatch
+diagnostic bootup level minimal
+port-channel load-balance src-dst-ip
+spanning-tree mode pvst
+spanning-tree extend system-id
+hw-switch switch 1 logging onboard message level 3
+hw-switch switch 2 logging onboard message level 3
+!
+redundancy
+ mode sso
+!
+!
+vlan 2021
+ name KNTMR
+!
+vlan 2395
+ name SVKN
+!
+!
+class-map match-any non-client-nrt-class
+!
+policy-map port_child_policy
+ class non-client-nrt-class
+  bandwidth remaining ratio 10
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Port-channel1
+ switchport mode trunk
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ no ip address
+ negotiation auto
+!
+interface GigabitEthernet1/0/1
+ description MSKW-BLAGODATNAYA
+ switchport trunk allowed vlan 491
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/2
+ switchport access vlan 499
+ switchport mode access
+!
+interface GigabitEthernet1/0/3
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/4
+ switchport trunk allowed vlan 491,500,502,581
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/5
+ switchport access vlan 503
+ switchport mode access
+!
+interface GigabitEthernet1/0/6
+!
+interface GigabitEthernet1/0/7
+!
+interface GigabitEthernet1/0/8
+!
+interface GigabitEthernet1/0/9
+!
+interface GigabitEthernet1/0/10
+!
+interface GigabitEthernet1/0/11
+!
+interface GigabitEthernet1/0/12
+!
+interface GigabitEthernet1/0/13
+!
+interface GigabitEthernet1/0/14
+!
+interface GigabitEthernet1/0/15
+!
+interface GigabitEthernet1/0/16
+!
+interface GigabitEthernet1/0/17
+!
+interface GigabitEthernet1/0/18
+!
+interface GigabitEthernet1/0/19
+!
+interface GigabitEthernet1/0/20
+!
+interface GigabitEthernet1/0/21
+!
+interface GigabitEthernet1/0/22
+!
+interface GigabitEthernet1/0/23
+ channel-group 1 mode passive
+!
+interface GigabitEthernet1/0/24
+ switchport mode trunk
+ channel-group 1 mode passive
+!
+interface GigabitEthernet1/1/1
+ description to_Hrustalnaya_22A
+ channel-group 1 mode passive
+!
+interface GigabitEthernet1/1/2
+!
+interface GigabitEthernet1/1/3
+!
+interface GigabitEthernet1/1/4
+!
+interface TenGigabitEthernet1/1/1
+!
+interface TenGigabitEthernet1/1/2
+!
+interface TenGigabitEthernet1/1/3
+!
+interface TenGigabitEthernet1/1/4
+!
+interface GigabitEthernet2/0/1
+ description MEGAFON_L3_VPN
+ switchport access vlan 24
+ switchport trunk allowed vlan 491,2021,2395
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/2
+ switchport trunk allowed vlan 15,253,488
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/3
+ description LNSK_GVRV
+ switchport access vlan 15
+ switchport mode access
+!
+interface GigabitEthernet2/0/4
+!
+interface GigabitEthernet2/0/5
+ description MITROfANIEVSKOY
+ switchport access vlan 491
+ switchport mode access
+!
+interface GigabitEthernet2/0/6
+!
+interface GigabitEthernet2/0/7
+ description MSKW_DSL_TAIL
+ switchport access vlan 500
+ switchport mode access
+!
+interface GigabitEthernet2/0/8
+ description ReSERV_UPLINK_MSKW
+ switchport access vlan 500
+!
+interface GigabitEthernet2/0/9
+!
+interface GigabitEthernet2/0/10
+!
+interface GigabitEthernet2/0/11
+!
+interface GigabitEthernet2/0/12
+ switchport access vlan 24
+ switchport mode access
+!
+interface GigabitEthernet2/0/13
+!
+interface GigabitEthernet2/0/14
+!
+interface GigabitEthernet2/0/15
+!
+interface GigabitEthernet2/0/16
+!
+interface GigabitEthernet2/0/17
+!
+interface GigabitEthernet2/0/18
+!
+interface GigabitEthernet2/0/19
+!
+interface GigabitEthernet2/0/20
+!
+interface GigabitEthernet2/0/21
+ switchport access vlan 24
+ switchport mode access
+!
+interface GigabitEthernet2/0/22
+ switchport access vlan 15
+ switchport mode access
+!
+interface GigabitEthernet2/0/23
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/24
+ switchport access vlan 24
+ switchport mode access
+!
+interface GigabitEthernet2/1/1
+ description to_Hrustalnaya_22A
+ channel-group 1 mode passive
+!
+interface GigabitEthernet2/1/2
+!
+interface GigabitEthernet2/1/3
+!
+interface GigabitEthernet2/1/4
+!
+interface TenGigabitEthernet2/1/1
+!
+interface TenGigabitEthernet2/1/2
+!
+interface TenGigabitEthernet2/1/3
+!
+interface TenGigabitEthernet2/1/4
+!
+interface Vlan1
+ no ip address
+!
+interface Vlan10
+ ip address 172.16.10.1 255.255.255.0
+ ip pim sparse-mode
+!
+interface Vlan15
+ ip address 192.168.9.3 255.255.255.0
+!
+interface Vlan500
+ no ip address
+!
+interface Vlan501
+ ip address 172.18.12.1 255.255.255.0
+ ip pim sparse-mode
+!
+interface Vlan502
+ ip address 172.18.8.1 255.255.255.0
+!
+interface Vlan503
+ ip address 172.18.40.1 255.255.255.0
+ ip pim sparse-mode
+!
+router ospf 1
+ router-id 172.18.255.55
+ network 172.16.0.0 0.0.255.255 area 0
+ network 172.18.0.0 0.0.255.255 area 0
+!
+ip forward-protocol nd
+ip pim rp-address 172.18.255.10
+ip http server
+ip http authentication local
+ip http secure-server
+!
+ip route 172.16.200.0 255.255.255.0 192.168.9.254
+!
+!
+logging facility local6
+logging host 172.16.10.250
+!
+snmp-server community a4fa17d8fb RO
+!
+!
+!
+!
+!
+line con 0
+ stopbits 1
+line aux 0
+ stopbits 1
+line vty 0 4
+ exec-timeout 90 0
+ logging synchronous
+ transport input ssh
+line vty 5 15
+!
+ntp server 172.16.10.254 prefer
+wsma agent exec
+ profile httplistener
+ profile httpslistener
+!
+wsma agent config
+ profile httplistener
+ profile httpslistener
+!
+wsma agent filesys
+ profile httplistener
+ profile httpslistener
+!
+wsma agent notify
+ profile httplistener
+ profile httpslistener
+!
+!
+wsma profile listener httplistener
+ transport http
+!
+wsma profile listener httpslistener
+ transport https
+!
+ap group default-group
+end
+
+SALOVA-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:_read_channel_expect read_data: SALOVA-SR-1#
+DEBUG:netmiko:Pattern found: # 
+SALOVA-SR-1#
+DEBUG:netmiko:exit_config_mode: 
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Current configuration : 10813 bytes
+!
+! Last configuration change at 13:32:35 UTC Tue Mar 31 2020 by cisco
+!
+version 15.2
+no service pad
+service timestamps debug datetime msec localtime show-timezone
+service timestamps log datetime msec
+service password-encryption
+service compress-config
+service unsupported-transceiver
+!
+hostname HRUST-A207-SR-1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+enable password 7 13220216040800787B7578
+!
+username cisco privilege 15 password 7 15351E080B2E2F76786265
+aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+aaa session-id common
+switch 1 provision ws-c3850-48t
+switch 2 provision ws-c3850-48t
+!
+!
+!
+!
+!
+coap http enable
+!
+!
+!
+!
+!
+!
+!
+ip domain-name cudd.local
+!
+!
+qos queue-softmax-multiplier 100
+!
+crypto pki trustpoint TP-self-signed-568318041
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-568318041
+ revocation-check none
+ rsakeypair TP-self-signed-568318041
+!
+!
+crypto pki certificate chain TP-self-signed-568318041
+ certificate self-signed 01
+  30820229 30820192 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  30312E30 2C060355 04031325 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 35363833 31383034 31301E17 0D313730 31323031 35323330 
+  375A170D 32303031 30313030 30303030 5A303031 2E302C06 03550403 1325494F 
+  532D5365 6C662D53 69676E65 642D4365 72746966 69636174 652D3536 38333138 
+  30343130 819F300D 06092A86 4886F70D 01010105 0003818D 00308189 02818100 
+  AD6D2AEB 9D1BF689 5E180DB9 7DC735EC D3A368D2 136F5E82 E709ADFB 1BF20E23 
+  19ABE891 4C041632 906E474F A6E5440F 0178A277 518679C7 FED9D484 9073B0D8 
+  AFE3D74A 29760612 CD5BE34B A5725E3B D92E3B14 0909A9CB AFE411F6 B31A0833 
+  12AD90A7 A476BE9C C8E8302E 04858E49 AEF220BB 9DD40357 5489CE6C 232347F9 
+  02030100 01A35330 51300F06 03551D13 0101FF04 05300301 01FF301F 0603551D 
+  23041830 1680141C 6BDBE70F BEBE4080 146A9B2D 5F104F4F BC66FF30 1D060355 
+  1D0E0416 04141C6B DBE70FBE BE408014 6A9B2D5F 104F4FBC 66FF300D 06092A86 
+  4886F70D 01010505 00038181 007061F9 240B3FA4 3641C18D B50B0A53 08628C04 
+  DBF30C0B 4C3274AA A15C9C21 FF835D71 7EB00F21 1BABD708 85A7FC3F ABEA7DEB 
+  635293A5 76B3E2D1 1645C190 7085869D A82EA9C7 6E60B9D1 8FDEF7C5 64CB6047 
+  80F8F088 6D23C454 604DE205 C6BB953D 9E3DEE76 306D7695 2B3BE70B D6FA8BF2 
+  E1C619B0 B12FA55D 13FD8B60 C0
+  	quit
+no errdisable detect cause gbic-invalid
+diagnostic bootup level minimal
+archive
+ log config
+  logging enable
+  hidekeys
+ path ftp://192.168.9.19/cisco/conf/$H-$T
+ write-memory
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+hw-switch switch 1 logging onboard message level 3
+hw-switch switch 2 logging onboard message level 3
+!
+redundancy
+ mode sso
+!
+!
+!
+class-map match-any non-client-nrt-class
+!
+policy-map port_child_policy
+ class non-client-nrt-class
+  bandwidth remaining ratio 10
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Port-channel11
+ description description ASUDD-1-HA-CLUSTER
+ switchport mode trunk
+!
+interface Port-channel12
+ description description ASUDD-2-HA-CLUSTER
+ switchport mode trunk
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ no ip address
+ negotiation auto
+!
+interface GigabitEthernet1/0/1
+ description PELCO-SM5200_main_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/2
+ description PELCO-NSM5200-1_main_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/3
+ description PELCO-NSM5200-2_main_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/4
+ description PELCO-NSM5200-3_main_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/5
+ description ASUDD-207-1-1_vmnic0
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet1/0/6
+ description ASUDD-207-1-1_vmnic2
+ switchport mode trunk
+ channel-group 11 mode active
+!
+interface GigabitEthernet1/0/7
+ description ASUDD-207-1-2_vmnic0
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet1/0/8
+ description ASUDD-207-1-2_vmnic2
+ switchport mode trunk
+ channel-group 12 mode active
+!
+interface GigabitEthernet1/0/9
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet1/0/10
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet1/0/11
+ description HP-SRV
+ switchport access vlan 20
+ switchport mode access
+!
+interface GigabitEthernet1/0/12
+ shutdown
+!
+interface GigabitEthernet1/0/13
+ shutdown
+!
+interface GigabitEthernet1/0/14
+ shutdown
+!
+interface GigabitEthernet1/0/15
+ shutdown
+!
+interface GigabitEthernet1/0/16
+ shutdown
+!
+interface GigabitEthernet1/0/17
+ shutdown
+!
+interface GigabitEthernet1/0/18
+ shutdown
+!
+interface GigabitEthernet1/0/19
+ shutdown
+!
+interface GigabitEthernet1/0/20
+ shutdown
+!
+interface GigabitEthernet1/0/21
+ shutdown
+!
+interface GigabitEthernet1/0/22
+ shutdown
+!
+interface GigabitEthernet1/0/23
+ shutdown
+!
+interface GigabitEthernet1/0/24
+ shutdown
+!
+interface GigabitEthernet1/0/25
+ shutdown
+!
+interface GigabitEthernet1/0/26
+ shutdown
+!
+interface GigabitEthernet1/0/27
+ shutdown
+!
+interface GigabitEthernet1/0/28
+ shutdown
+!
+interface GigabitEthernet1/0/29
+ shutdown
+!
+interface GigabitEthernet1/0/30
+ shutdown
+!
+interface GigabitEthernet1/0/31
+ shutdown
+!
+interface GigabitEthernet1/0/32
+ shutdown
+!
+interface GigabitEthernet1/0/33
+ shutdown
+!
+interface GigabitEthernet1/0/34
+ shutdown
+!
+interface GigabitEthernet1/0/35
+ shutdown
+!
+interface GigabitEthernet1/0/36
+ shutdown
+!
+interface GigabitEthernet1/0/37
+ shutdown
+!
+interface GigabitEthernet1/0/38
+ shutdown
+!
+interface GigabitEthernet1/0/39
+ shutdown
+!
+interface GigabitEthernet1/0/40
+ shutdown
+!
+interface GigabitEthernet1/0/41
+ shutdown
+!
+interface GigabitEthernet1/0/42
+ shutdown
+!
+interface GigabitEthernet1/0/43
+ shutdown
+!
+interface GigabitEthernet1/0/44
+ shutdown
+!
+interface GigabitEthernet1/0/45
+ shutdown
+!
+interface GigabitEthernet1/0/46
+ shutdown
+!
+interface GigabitEthernet1/0/47
+ shutdown
+!
+interface GigabitEthernet1/0/48
+ switchport mode trunk
+!
+interface GigabitEthernet1/1/1
+!
+interface GigabitEthernet1/1/2
+!
+interface GigabitEthernet1/1/3
+!
+interface GigabitEthernet1/1/4
+ switchport mode trunk
+!
+interface TenGigabitEthernet1/1/1
+!
+interface TenGigabitEthernet1/1/2
+!
+interface TenGigabitEthernet1/1/3
+!
+interface TenGigabitEthernet1/1/4
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/1
+ description PELCO-SM5200_ext_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/2
+ description PELCO-NSM5200-1_ext_int
+ switchport access vlan 25
+ switchport mode access
+ shutdown
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/3
+ description PELCO-NSM5200-2_ext_int
+ switchport access vlan 25
+ switchport mode access
+ shutdown
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/4
+ description PELCO-NSM5200-3_ext_int
+ switchport access vlan 25
+ switchport mode access
+ shutdown
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/5
+ description ASUDD-207-1-1_vmnic3
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet2/0/6
+ description ASUDD-207-1-1_vmnic1
+ switchport mode trunk
+ channel-group 11 mode active
+!
+interface GigabitEthernet2/0/7
+ description ASUDD-207-1-2_vmnic3
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet2/0/8
+ description ASUDD-207-1-2_vmnic1
+ switchport mode trunk
+ channel-group 12 mode active
+!
+interface GigabitEthernet2/0/9
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet2/0/10
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet2/0/11
+ shutdown
+!
+interface GigabitEthernet2/0/12
+ shutdown
+!
+interface GigabitEthernet2/0/13
+ shutdown
+!
+interface GigabitEthernet2/0/14
+ shutdown
+!
+interface GigabitEthernet2/0/15
+ shutdown
+!
+interface GigabitEthernet2/0/16
+ shutdown
+!
+interface GigabitEthernet2/0/17
+ shutdown
+!
+interface GigabitEthernet2/0/18
+ shutdown
+!
+interface GigabitEthernet2/0/19
+ shutdown
+!
+interface GigabitEthernet2/0/20
+ shutdown
+!
+interface GigabitEthernet2/0/21
+ shutdown
+!
+interface GigabitEthernet2/0/22
+ shutdown
+!
+interface GigabitEthernet2/0/23
+ shutdown
+!
+interface GigabitEthernet2/0/24
+ shutdown
+!
+interface GigabitEthernet2/0/25
+ shutdown
+!
+interface GigabitEthernet2/0/26
+ shutdown
+!
+interface GigabitEthernet2/0/27
+ shutdown
+!
+interface GigabitEthernet2/0/28
+ shutdown
+!
+interface GigabitEthernet2/0/29
+ shutdown
+!
+interface GigabitEthernet2/0/30
+ shutdown
+!
+interface GigabitEthernet2/0/31
+ shutdown
+!
+interface GigabitEthernet2/0/32
+ shutdown
+!
+interface GigabitEthernet2/0/33
+ switchport access vlan 31
+ switchport mode access
+!
+interface GigabitEthernet2/0/34
+ shutdown
+!
+interface GigabitEthernet2/0/35
+ description IMM_ASUDD-207-1-1
+ switchport access vlan 15
+ switchport mode access
+!
+interface GigabitEthernet2/0/36
+ description IMM_ASUDD-207-1-2
+ switchport access vlan 15
+ switchport mode access
+!
+interface GigabitEthernet2/0/37
+ shutdown
+!
+interface GigabitEthernet2/0/38
+ shutdown
+!
+interface GigabitEthernet2/0/39
+ shutdown
+!
+interface GigabitEthernet2/0/40
+ shutdown
+!
+interface GigabitEthernet2/0/41
+ shutdown
+!
+interface GigabitEthernet2/0/42
+ shutdown
+!
+interface GigabitEthernet2/0/43
+ shutdown
+!
+interface GigabitEthernet2/0/44
+ shutdown
+!
+interface GigabitEthernet2/0/45
+ shutdown
+!
+interface GigabitEthernet2/0/46
+ shutdown
+!
+interface GigabitEthernet2/0/47
+ shutdown
+!
+interface GigabitEthernet2/0/48
+ shutdown
+!
+interface GigabitEthernet2/1/1
+!
+interface GigabitEthernet2/1/2
+!
+interface GigabitEthernet2/1/3
+!
+interface GigabitEthernet2/1/4
+ switchport mode trunk
+!
+interface TenGigabitEthernet2/1/1
+!
+interface TenGigabitEthernet2/1/2
+!
+interface TenGigabitEthernet2/1/3
+ switchport mode trunk
+!
+interface TenGigabitEthernet2/1/4
+ switchport mode trunk
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan10
+ ip address 172.16.10.3 255.255.255.0
+!
+ip forward-protocol nd
+ip http server
+ip http authentication local
+ip http secure-server
+ip ftp username cisco
+ip ftp password 7 01341300540F025D711D1E
+ip ssh version 2
+!
+!
+logging host 172.16.10.250
+!
+snmp-server community a4fa17d8fb RO
+!
+!
+!
+!
+line con 0
+ stopbits 1
+line aux 0
+ stopbits 1
+line vty 0 4
+ exec-timeout 90 0
+ logging synchronous
+ transport input ssh
+line vty 5 15
+!
+wsma agent exec
+ profile httplistener
+ profile httpslistener
+!
+wsma agent config
+ profile httplistener
+ profile httpslistener
+!
+wsma agent filesys
+ profile httplistener
+ profile httpslistener
+!
+wsma agent notify
+ profile httplistener
+ profile httpslistener
+!
+!
+wsma profile listener httplistener
+ transport http
+!
+wsma profile listener httpslistener
+ transport https
+!
+ap group default-group
+end
+
+HRUST-A207-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A207-SR-1#
+DEBUG:netmiko:Pattern found: # 
+HRUST-A207-SR-1#
+DEBUG:netmiko:exit_config_mode: 
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Current configuration : 15554 bytes
+!
+! Last configuration change at 13:06:31 MSK Mon Apr 27 2020 by Cisco
+! NVRAM config last updated at 11:59:53 MSK Mon Mar 30 2020 by cisco
+!
+version 15.2
+no service pad
+service timestamps debug datetime msec localtime show-timezone
+service timestamps log datetime msec localtime show-timezone
+service password-encryption
+service compress-config
+service unsupported-transceiver
+!
+hostname HRUST-A206-SR-1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+enable secret 5 $1$PJ57$cKxZaNvVM8d8eVMCsleVn/
+!
+username Cisco secret 5 $1$kAZS$ZW0TaMFZa7ErKApv666LT1
+aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone MSK 3 0
+switch 1 provision ws-c3850-24s
+switch 2 provision ws-c3850-24t
+!
+!
+!
+!
+!
+coap http enable
+!
+!
+!
+!
+!
+!
+ip routing
+!
+ip multicast-routing 
+no ip domain-lookup
+ip domain-name cudd.local
+!
+!
+qos queue-softmax-multiplier 100
+!
+crypto pki trustpoint TP-self-signed-3376449872
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3376449872
+ revocation-check none
+ rsakeypair TP-self-signed-3376449872
+!
+!
+crypto pki certificate chain TP-self-signed-3376449872
+ certificate self-signed 01
+  3082022B 30820194 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 33333736 34343938 3732301E 170D3136 31323231 31323333 
+  33345A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D33 33373634 
+  34393837 3230819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100C0AB D4DCFF92 BBCD81F7 19A50B68 A9EF9E07 2BEA9228 8C353E4F 0641BD25 
+  D94716FD 6A292538 6C8B882E BEE760EC B0BB448B 253A04EB 88221B66 862313D3 
+  CC8471E6 CADF140C 81B4E8D0 EB0F6DCF E9043261 CC43CEAD 667FA4A7 D3A7DDB9 
+  96FDB1B3 F6137AFD DADCF9B6 0E825B3A 3A16C9C9 9B0CE0E3 B2E3A894 9B3B376E 
+  00850203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF 301F0603 
+  551D2304 18301680 148B7966 520EF124 B0FC4860 E3FAF3CC 9CEF3E1D D7301D06 
+  03551D0E 04160414 8B796652 0EF124B0 FC4860E3 FAF3CC9C EF3E1DD7 300D0609 
+  2A864886 F70D0101 05050003 8181002E 5AFB05BB F25A57BD 847933D5 24A91758 
+  96092308 5B1C7E69 8F2F59D2 95AB9E50 48511988 78BDFF59 DED1424D 709A4EBD 
+  71CFAB0E FAFBAC7F C965888E 458BF2B8 70D3E2BA 8C581F3A C5E59405 5AE8B770 
+  13B1D8F7 AFCCB885 1D99D497 CA6FC4E6 0705ED87 E2D276DA 8D73FC3B 6912DA05 
+  6060D985 1F6312FD 75DD98D4 E6E15F
+  	quit
+no errdisable detect cause gbic-invalid
+no errdisable detect cause sfp-config-mismatch
+errdisable recovery cause loopback
+diagnostic bootup level minimal
+archive
+ log config
+  logging enable
+  hidekeys
+ path ftp://192.168.9.19/cisco/conf/$H-$T
+ write-memory
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+no spanning-tree vlan 505,521
+hw-switch switch 1 logging onboard message level 3
+hw-switch switch 2 logging onboard message level 3
+!
+redundancy
+ mode sso
+!
+!
+vlan 2020
+ name PSKR-VBRG-PRSV
+!
+vlan 2021
+ name KNTM
+!
+vlan 2023 
+!
+vlan 2025
+ name CNTR
+!
+vlan 2026 
+!
+vlan 2395
+ name SVKN
+!
+!
+class-map match-any non-client-nrt-class
+!
+policy-map port_child_policy
+ class non-client-nrt-class
+  bandwidth remaining ratio 10
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 172.18.255.1 255.255.255.255
+!
+interface Port-channel1
+ description Salova66
+ switchport mode trunk
+!
+interface Port-channel2
+ description LIT_B:Cisco_ME3400
+ switchport trunk allowed vlan 10,17,20,24,170,254
+ switchport mode trunk
+!
+interface Port-channel10
+ description TEMP_TO_CORE
+ switchport mode trunk
+!
+interface Tunnel1
+ ip address 192.168.170.1 255.255.255.252
+ ip tcp adjust-mss 1438
+ tunnel source Vlan101
+ tunnel destination 10.0.50.190
+!
+interface Tunnel10
+ ip address 192.168.170.5 255.255.255.252
+ ip tcp adjust-mss 1100
+ tunnel source Vlan101
+ tunnel destination 10.0.49.32
+!
+interface Tunnel15
+ ip address 192.168.170.17 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.64
+!
+interface Tunnel16
+ ip address 192.168.170.21 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.41
+!
+interface Tunnel17
+ ip address 192.168.170.25 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.46
+!
+interface Tunnel18
+ ip address 192.168.170.29 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.207
+!
+interface Tunnel19
+ ip address 192.168.170.33 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.138
+!
+interface Tunnel20
+ ip address 192.168.170.37 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.137
+!
+interface Tunnel21
+ ip address 192.168.170.41 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.136
+!
+interface Tunnel22
+ ip address 192.168.170.85 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.74
+!
+interface Tunnel23
+ ip address 192.168.170.45 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.104
+!
+interface Tunnel24
+ ip address 192.168.170.49 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.91
+!
+interface Tunnel25
+ ip address 192.168.170.81 255.255.255.252
+ ip tcp adjust-mss 1232
+ tunnel source Vlan101
+ tunnel destination 10.0.48.73
+!
+interface Tunnel26
+ ip address 192.168.170.53 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.22
+!
+interface Tunnel27
+ ip address 192.168.170.57 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.192
+!
+interface Tunnel28
+ ip address 192.168.170.61 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.49
+!
+interface Tunnel29
+ ip address 192.168.170.65 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.28
+!
+interface Tunnel30
+ ip address 192.168.170.69 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.76
+!
+interface Tunnel31
+ ip address 192.168.170.73 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.52.62
+!
+interface Tunnel32
+ ip address 192.168.170.77 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.194
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ no ip address
+ negotiation auto
+!
+interface GigabitEthernet1/0/1
+ description MEGAFON_VPLS
+ switchport trunk allowed vlan 217,925,2020,2023,2025
+ switchport mode trunk
+ no cdp enable
+!
+interface GigabitEthernet1/0/2
+!
+interface GigabitEthernet1/0/3
+ switchport trunk allowed vlan 510,582
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/4
+ description BO_LEFT_SIDE
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/5
+!
+interface GigabitEthernet1/0/6
+!
+interface GigabitEthernet1/0/7
+ description EMTS_VPLS
+ switchport trunk allowed vlan 521,2026
+ switchport mode trunk
+ no cdp enable
+ spanning-tree bpdufilter enable
+!
+interface GigabitEthernet1/0/8
+!
+interface GigabitEthernet1/0/9
+!
+interface GigabitEthernet1/0/10
+!
+interface GigabitEthernet1/0/11
+!
+interface GigabitEthernet1/0/12
+!
+interface GigabitEthernet1/0/13
+!
+interface GigabitEthernet1/0/14
+!
+interface GigabitEthernet1/0/15
+!
+interface GigabitEthernet1/0/16
+!
+interface GigabitEthernet1/0/17
+ switchport access vlan 24
+ switchport mode access
+ shutdown
+!
+interface GigabitEthernet1/0/18
+ switchport access vlan 24
+ switchport mode access
+ shutdown
+!
+interface GigabitEthernet1/0/19
+!
+interface GigabitEthernet1/0/20
+ description s33-hrustalnaya22b.nev:gig0/0/3
+ switchport trunk allowed vlan 101,120,170,472,488
+ switchport mode trunk
+ no cdp enable
+!
+interface GigabitEthernet1/0/21
+ switchport trunk allowed vlan 10,17,20,24,170,254
+ switchport mode trunk
+ channel-group 2 mode active
+!
+interface GigabitEthernet1/0/22
+ description LIT_B
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/23
+ switchport mode trunk
+ channel-group 1 mode active
+!
+interface GigabitEthernet1/0/24
+ switchport mode trunk
+ channel-group 1 mode active
+!
+interface GigabitEthernet1/1/1
+!
+interface GigabitEthernet1/1/2
+!
+interface GigabitEthernet1/1/3
+!
+interface GigabitEthernet1/1/4
+!
+interface TenGigabitEthernet1/1/1
+!
+interface TenGigabitEthernet1/1/2
+!
+interface TenGigabitEthernet1/1/3
+!
+interface TenGigabitEthernet1/1/4
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/1
+ description SOFIYSKAY
+ switchport access vlan 498
+ switchport mode access
+!
+interface GigabitEthernet2/0/2
+ description SOFIYSKAY
+ switchport access vlan 498
+ switchport mode access
+!
+interface GigabitEthernet2/0/3
+ description NARODNAYA-TIPANOVA-SLAVI
+ switchport access vlan 497
+ switchport mode access
+!
+interface GigabitEthernet2/0/4
+ description MTS_PETERGOFSKOE
+ switchport access vlan 505
+ switchport mode access
+ no cdp enable
+ spanning-tree portfast trunk
+!
+interface GigabitEthernet2/0/5
+ switchport access vlan 20
+ switchport mode access
+!
+interface GigabitEthernet2/0/6
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/7
+ switchport access vlan 20
+ switchport mode access
+!
+interface GigabitEthernet2/0/8
+ switchport access vlan 25
+ switchport mode access
+!
+interface GigabitEthernet2/0/9
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/10
+ description HRUST-A302-SW-1
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/11
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/12
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/13
+ description ENDURA-HD-DECODER-1
+ switchport access vlan 25
+ switchport mode access
+!
+interface GigabitEthernet2/0/14
+ description AVAYA_VOIP
+ switchport access vlan 472
+ switchport mode access
+ no cdp enable
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/15
+ switchport access vlan 521
+!
+interface GigabitEthernet2/0/16
+!
+interface GigabitEthernet2/0/17
+ switchport trunk native vlan 20
+ switchport trunk allowed vlan 20,25,26
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/18
+ shutdown
+!
+interface GigabitEthernet2/0/19
+ switchport trunk native vlan 20
+ switchport trunk allowed vlan 2-21,23-26,101,254,498,1122,2020
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/20
+ shutdown
+!
+interface GigabitEthernet2/0/21
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/22
+ switchport access vlan 506
+ switchport mode access
+!
+interface GigabitEthernet2/0/23
+ switchport mode trunk
+ channel-group 10 mode active
+!
+interface GigabitEthernet2/0/24
+ switchport mode trunk
+ channel-group 10 mode active
+!
+interface GigabitEthernet2/1/1
+!
+interface GigabitEthernet2/1/2
+!
+interface GigabitEthernet2/1/3
+!
+interface GigabitEthernet2/1/4
+!
+interface TenGigabitEthernet2/1/1
+!
+interface TenGigabitEthernet2/1/2
+!
+interface TenGigabitEthernet2/1/3
+!
+interface TenGigabitEthernet2/1/4
+ no switchport
+ no ip address
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan10
+ ip address 172.16.10.2 255.255.255.0
+ ip pim sparse-mode
+!
+interface Vlan11
+ description was_192.168.142.47
+ ip address 172.16.16.1 255.255.255.0
+!
+interface Vlan15
+ ip address 192.168.9.2 255.255.255.0
+!
+interface Vlan18
+ ip address 192.168.80.233 255.255.255.0
+ shutdown
+!
+interface Vlan19
+ ip address 192.168.101.1 255.255.255.0
+!
+interface Vlan20
+ ip address 192.168.7.204 255.255.252.0
+!
+interface Vlan101
+ ip address 10.0.55.120 255.255.255.192
+!
+interface Vlan120
+ no ip address
+!
+interface Vlan170
+ ip address 10.217.9.240 255.255.255.192
+!
+interface Vlan210
+ no ip address
+ ip pim dense-mode
+!
+interface Vlan217
+ ip address 172.18.21.1 255.255.255.0
+!
+interface Vlan251
+ no ip address
+!
+interface Vlan488
+ ip address 10.6.128.163 255.255.255.240
+!
+interface Vlan497
+ ip address 172.18.11.1 255.255.255.0
+!
+interface Vlan500
+ ip address 172.18.14.1 255.255.255.0
+!
+interface Vlan505
+ ip address 172.18.2.1 255.255.255.0
+ ip helper-address 192.168.9.251
+!
+interface Vlan506
+ ip address 172.18.22.1 255.255.255.0
+!
+interface Vlan507
+ ip address 172.18.23.1 255.255.255.0
+!
+interface Vlan508
+ no ip address
+!
+interface Vlan510
+ ip address 172.18.25.1 255.255.255.0
+ ip helper-address 192.168.9.251
+!
+interface Vlan511
+ ip address 172.18.17.1 255.255.255.0
+!
+interface Vlan521
+ no ip address
+ no ip proxy-arp
+!
+interface Vlan554
+ no ip address
+!
+interface Vlan581
+ ip address 172.18.50.1 255.255.255.0
+!
+interface Vlan582
+ ip address 172.18.51.1 255.255.255.0
+!
+interface Vlan925
+ ip address 172.18.52.1 255.255.255.0
+!
+interface Vlan2020
+ ip address 172.16.11.1 255.255.255.252
+ ip pim sparse-mode
+!
+interface Vlan2026
+ no ip address
+!
+router ospf 1
+ router-id 172.18.255.1
+ area 1 virtual-link 3.3.3.3
+ passive-interface Vlan15
+ network 172.16.11.0 0.0.0.255 area 1
+ network 172.16.0.0 0.0.255.255 area 0
+ network 172.18.52.0 0.0.0.255 area 0
+ network 172.0.0.0 0.255.255.255 area 1
+ network 192.168.0.0 0.0.255.255 area 0
+!
+ip forward-protocol nd
+ip pim rp-address 172.18.255.10
+ip pim bsr-candidate Vlan2020 0
+ip http server
+ip http authentication local
+ip http secure-server
+!
+ip ftp username cisco
+ip ftp password 7 052C130B2E484A5B495447
+ip route 0.0.0.0 0.0.0.0 172.16.10.4
+ip route 10.0.48.0 255.255.248.0 10.0.55.65
+ip route 10.128.0.0 255.255.0.0 192.168.7.210
+ip route 10.248.51.0 255.255.255.0 10.0.64.65
+ip route 172.16.200.0 255.255.255.0 192.168.9.254
+ip route 172.17.10.0 255.255.255.0 192.168.7.201
+ip route 172.18.14.0 255.255.255.0 192.168.9.10
+ip route 172.19.5.224 255.255.255.240 192.168.170.78
+ip route 172.19.13.176 255.255.255.240 192.168.170.82
+ip route 172.19.13.192 255.255.255.240 192.168.170.86
+ip route 172.19.14.64 255.255.255.240 192.168.170.70
+ip route 172.19.16.112 255.255.255.240 192.168.170.22
+ip route 172.19.16.160 255.255.255.240 192.168.170.6
+ip route 172.19.18.128 255.255.255.240 192.168.170.54
+ip route 172.19.18.160 255.255.255.240 192.168.170.26
+ip route 172.19.19.32 255.255.255.240 192.168.170.74
+ip route 172.19.19.48 255.255.255.240 192.168.170.66
+ip route 172.19.19.192 255.255.255.240 192.168.170.18
+ip route 172.19.20.112 255.255.255.240 192.168.170.58
+ip route 172.19.21.240 255.255.255.240 192.168.170.62
+ip route 172.19.23.208 255.255.255.240 192.168.170.34
+ip route 172.19.23.224 255.255.255.240 192.168.170.42
+ip route 172.19.23.240 255.255.255.240 192.168.170.38
+ip route 172.19.24.16 255.255.255.240 192.168.170.50
+ip route 172.19.26.112 255.255.255.240 192.168.170.46
+ip route 172.19.222.0 255.255.255.0 192.168.170.30
+ip route 172.19.253.0 255.255.255.240 192.168.170.2
+!
+!
+logging facility local3
+logging host 172.16.10.250
+!
+snmp-server community a4fa17d8fb RO
+!
+!
+!
+!
+!
+line con 0
+ stopbits 1
+line aux 0
+ stopbits 1
+line vty 0 4
+ exec-timeout 90 0
+ logging synchronous
+ transport input ssh
+line vty 5 15
+!
+ntp master 2
+ntp server 172.16.10.254 prefer
+wsma agent exec
+ profile httplistener
+ profile httpslistener
+!
+wsma agent config
+ profile httplistener
+ profile httpslistener
+!
+wsma agent filesys
+ profile httplistener
+ profile httpslistener
+!
+wsma agent notify
+ profile httplistener
+ profile httpslistener
+!
+!
+wsma profile listener httplistener
+ transport http
+!
+wsma profile listener httpslistener
+ transport https
+mac address-table notification mac-move
+!
+ap group default-group
+end
+
+HRUST-A206-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A206-SR-1#
+DEBUG:netmiko:Pattern found: # 
+HRUST-A206-SR-1#
+DEBUG:netmiko:exit_config_mode: 
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:paramiko.transport:starting thread (client mode): 0xafcc950
+DEBUG:paramiko.transport:starting thread (client mode): 0xafce850
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:starting thread (client mode): 0xafcca90
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Local version/idstring: SSH-2.0-paramiko_2.7.1
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-1.25
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+DEBUG:paramiko.transport:Remote version/idstring: SSH-1.99-Cisco-1.25
+DEBUG:paramiko.transport:Remote version/idstring: SSH-2.0-Cisco-1.25
+INFO:paramiko.transport:Connected (version 1.99, client Cisco-1.25)
+INFO:paramiko.transport:Connected (version 2.0, client Cisco-1.25)
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:kex algos:['diffie-hellman-group-exchange-sha1', 'diffie-hellman-group14-sha1', 'diffie-hellman-group1-sha1'] server key:['ssh-rsa'] client encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] server encrypt:['aes128-ctr', 'aes192-ctr', 'aes256-ctr', 'aes128-cbc', '3des-cbc', 'aes192-cbc', 'aes256-cbc'] client mac:['hmac-sha1', 'hmac-sha1-96'] server mac:['hmac-sha1', 'hmac-sha1-96'] client compress:['none'] server compress:['none'] client lang:[''] server lang:[''] kex follows?False
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha1
+DEBUG:paramiko.transport:Kex agreed: diffie-hellman-group-exchange-sha1
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:HostKey agreed: ssh-rsa
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:Cipher agreed: aes128-ctr
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:MAC agreed: hmac-sha1
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Compression agreed: none
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:Got server p (2048 bits)
+DEBUG:paramiko.transport:kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 172.16.10.1: b'458f0300b488144475cc82aa3c28ea35'
+DEBUG:paramiko.transport:kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 172.16.10.2: b'05384a3f4a8e6e8de2eef7764fec9eaf'
+DEBUG:paramiko.transport:kex engine KexGex specified hash_algo <built-in function openssl_sha1>
+DEBUG:paramiko.transport:Switch to new keys ...
+DEBUG:paramiko.transport:Adding ssh-rsa host key for 172.16.10.3: b'97f5aebc37946db7d99f56b7c62ea564'
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:userauth is OK
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:userauth is OK
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+INFO:paramiko.transport:Authentication (password) successful!
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Max packet in: 32768 bytes
+DEBUG:paramiko.transport:[chan 0] Max packet out: 4096 bytes
+DEBUG:paramiko.transport:Secsh channel 0 opened.
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:paramiko.transport:[chan 0] Sesch channel 0 request ok
+DEBUG:netmiko:read_channel: 
+SALOVA-SR-1>
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: HRUST-A207-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+SALOVA-SR-1>
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+HRUST-A207-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is SALOVA-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A206-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A207-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: terminal\ length\ 0
+DEBUG:netmiko:_read_channel_expect read_data: te
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: terminal\ length\ 0
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:In disable_paging
+DEBUG:netmiko:Command: terminal length 0
+
+DEBUG:netmiko:write_channel: b'terminal length 0\n'
+DEBUG:netmiko:Pattern is: terminal\ length\ 0
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: rminal length 0
+SALOVA-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ length\ 0 terminal length 0
+SALOVA-SR-1>
+DEBUG:netmiko:terminal length 0
+SALOVA-SR-1>
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: terminal\ width\ 511
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: erminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ length\ 0 terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:terminal length 0
+HRUST-A206-SR-1>
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: terminal\ width\ 511
+DEBUG:netmiko:_read_channel_expect read_data: te
+DEBUG:netmiko:_read_channel_expect read_data: erminal length 0
+HRUST-A207-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ length\ 0 terminal length 0
+HRUST-A207-SR-1>
+DEBUG:netmiko:terminal length 0
+HRUST-A207-SR-1>
+DEBUG:netmiko:Exiting disable_paging
+DEBUG:netmiko:write_channel: b'terminal width 511\n'
+DEBUG:netmiko:Pattern is: terminal\ width\ 511
+DEBUG:netmiko:_read_channel_expect read_data: t
+DEBUG:netmiko:_read_channel_expect read_data: erminal width 511
+SALOVA-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ width\ 511 terminal width 511
+SALOVA-SR-1>
+DEBUG:netmiko:_read_channel_expect read_data: rminal width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ width\ 511 terminal width 511
+HRUST-A206-SR-1>
+DEBUG:netmiko:_read_channel_expect read_data: erminal width 511
+HRUST-A207-SR-1>
+DEBUG:netmiko:Pattern found: terminal\ width\ 511 terminal width 511
+HRUST-A207-SR-1>
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: SALOVA\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+SALOVA-SR-1>
+DEBUG:netmiko:Pattern found: SALOVA\-SR\-1 
+SALOVA-SR-1>
+DEBUG:netmiko:write_channel: b'enable\n'
+DEBUG:netmiko:Pattern is: (SALOVA\-SR\-1|ssword)
+DEBUG:netmiko:_read_channel_expect read_data: e
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A207\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+HRUST-A207-SR-1>
+DEBUG:netmiko:Pattern found: HRUST\-A207\-SR\-1 
+HRUST-A207-SR-1>
+DEBUG:netmiko:write_channel: b'enable\n'
+DEBUG:netmiko:Pattern is: (HRUST\-A207\-SR\-1|ssword)
+DEBUG:netmiko:_read_channel_expect read_data: e
+DEBUG:netmiko:_read_channel_expect read_data: nable
+Password: 
+DEBUG:netmiko:Pattern found: (SALOVA\-SR\-1|ssword) enable
+Password: 
+DEBUG:netmiko:write_channel: b'Gudodd2010\n'
+DEBUG:netmiko:Pattern is: SALOVA\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+SALOVA-SR-1#
+DEBUG:netmiko:Pattern found: SALOVA\-SR\-1 
+SALOVA-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: SALOVA\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A206-SR-1>
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1>
+DEBUG:netmiko:write_channel: b'enable\n'
+DEBUG:netmiko:Pattern is: (HRUST\-A206\-SR\-1|ssword)
+DEBUG:netmiko:_read_channel_expect read_data: e
+DEBUG:netmiko:_read_channel_expect read_data: nable
+Password: 
+DEBUG:netmiko:Pattern found: (HRUST\-A207\-SR\-1|ssword) enable
+Password: 
+DEBUG:netmiko:write_channel: b'Gudodd2010\n'
+DEBUG:netmiko:Pattern is: HRUST\-A207\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+HRUST-A207-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A207\-SR\-1 
+HRUST-A207-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A207\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: SALOVA-SR-1#
+DEBUG:netmiko:Pattern found: SALOVA\-SR\-1 
+SALOVA-SR-1#
+DEBUG:netmiko:_read_channel_expect read_data: nable
+Password: 
+DEBUG:netmiko:Pattern found: (HRUST\-A206\-SR\-1|ssword) enable
+Password: 
+DEBUG:netmiko:write_channel: b'Gudodd2010\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+HRUST-A206-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: HRUST\-A206\-SR\-1
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A207-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A207\-SR\-1 
+HRUST-A207-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A206-SR-1#
+DEBUG:netmiko:Pattern found: HRUST\-A206\-SR\-1 
+HRUST-A206-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+SALOVA-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:read_channel: 
+HRUST-A207-SR-1#
+DEBUG:netmiko:read_channel: 
+HRUST-A206-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is SALOVA-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A207-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:[find_prompt()]: prompt is HRUST-A206-SR-1#
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'sh run\n'
+DEBUG:netmiko:Pattern is: sh\ run
+DEBUG:netmiko:_read_channel_expect read_data: sh
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'sh run\n'
+DEBUG:netmiko:Pattern is: sh\ run
+DEBUG:netmiko:_read_channel_expect read_data: sh
+DEBUG:netmiko:_read_channel_expect read_data:  run
+Building configuration...
+
+DEBUG:netmiko:Pattern found: sh\ run sh run
+Building configuration...
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:write_channel: b'sh run\n'
+DEBUG:netmiko:Pattern is: sh\ run
+DEBUG:netmiko:_read_channel_expect read_data: s
+DEBUG:netmiko:_read_channel_expect read_data:  run
+Building configuration...
+
+DEBUG:netmiko:Pattern found: sh\ run sh run
+Building configuration...
+
+DEBUG:netmiko:_read_channel_expect read_data: h run
+Building configuration...
+
+DEBUG:netmiko:Pattern found: sh\ run sh run
+Building configuration...
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Current configuration : 7818 bytes
+!
+! Last configuration change at 14:34:15 MSK Thu Apr 23 2020 by cisco
+!
+version 15.2
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+service password-encryption
+service compress-config
+service unsupported-transceiver
+!
+hostname SALOVA-SR-1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+enable password 7 15351E080B2E2F76786265
+!
+username Cisco privilege 15 password 7 07283448410D1D5747435B
+aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone MSK 3 0
+switch 1 provision ws-c3850-24s
+switch 2 provision ws-c3850-24t
+!
+!
+!
+!
+!
+ip routing
+!
+ip multicast-routing 
+ip domain-name cudd.local
+!
+!
+qos queue-softmax-multiplier 100
+!
+crypto pki trustpoint TP-self-signed-3238065583
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3238065583
+ revocation-check none
+ rsakeypair TP-self-signed-3238065583
+!
+!
+crypto pki certificate chain TP-self-signed-3238065583
+ certificate self-signed 01
+  3082022B 30820194 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 33323338 30363535 3833301E 170D3137 30343231 30393331 
+  34365A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D33 32333830 
+  36353538 3330819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100BE83 CFE80DD5 69E4B1B0 80C962B7 7DFD6E69 4A6CB336 1CDB62B8 CC9D63CF 
+  400BB866 CD0319BD 1E807A68 8DB50042 807A4EC8 2F9941E6 705DB9AF 97EE9C87 
+  A77FF7E2 836FD554 B508E187 C5814032 FA81E030 961A1C42 7A384189 59760191 
+  F9880F0C 357F8056 0019958C B645F0BF C20B1870 D6C0E31F 3A46AF22 4AFB03E8 
+  41570203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF 301F0603 
+  551D2304 18301680 147D56D8 33B92037 D787C08D 70C82844 F98F2CFB 47301D06 
+  03551D0E 04160414 7D56D833 B92037D7 87C08D70 C82844F9 8F2CFB47 300D0609 
+  2A864886 F70D0101 05050003 8181004B 7FFC0AC4 30C46BD4 41AB8F41 6306D330 
+  D7EB92E8 FF65469D 30F0F1ED C2F4480C 8ADC2A75 447F0E49 253D8404 6CE38848 
+  17329EB5 7E663167 9C1F4D15 DE36F77B D5289224 41A47D9D C4D15586 FBE426C2 
+  9BD2539C 0209B7C8 036B264D A982317B 305F7163 CB8EAB4E 7D372999 3C43F8BD 
+  9673CFE8 907B8530 BDFAC170 2A0963
+  	quit
+no errdisable detect cause gbic-invalid
+no errdisable detect cause sfp-config-mismatch
+diagnostic bootup level minimal
+port-channel load-balance src-dst-ip
+spanning-tree mode pvst
+spanning-tree extend system-id
+hw-switch switch 1 logging onboard message level 3
+hw-switch switch 2 logging onboard message level 3
+!
+redundancy
+ mode sso
+!
+!
+vlan 2021
+ name KNTMR
+!
+vlan 2395
+ name SVKN
+!
+!
+class-map match-any non-client-nrt-class
+!
+policy-map port_child_policy
+ class non-client-nrt-class
+  bandwidth remaining ratio 10
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Port-channel1
+ switchport mode trunk
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ no ip address
+ negotiation auto
+!
+interface GigabitEthernet1/0/1
+ description MSKW-BLAGODATNAYA
+ switchport trunk allowed vlan 491
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/2
+ switchport access vlan 499
+ switchport mode access
+!
+interface GigabitEthernet1/0/3
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/4
+ switchport trunk allowed vlan 491,500,502,581
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/5
+ switchport access vlan 503
+ switchport mode access
+!
+interface GigabitEthernet1/0/6
+!
+interface GigabitEthernet1/0/7
+!
+interface GigabitEthernet1/0/8
+!
+interface GigabitEthernet1/0/9
+!
+interface GigabitEthernet1/0/10
+!
+interface GigabitEthernet1/0/11
+!
+interface GigabitEthernet1/0/12
+!
+interface GigabitEthernet1/0/13
+!
+interface GigabitEthernet1/0/14
+!
+interface GigabitEthernet1/0/15
+!
+interface GigabitEthernet1/0/16
+!
+interface GigabitEthernet1/0/17
+!
+interface GigabitEthernet1/0/18
+!
+interface GigabitEthernet1/0/19
+!
+interface GigabitEthernet1/0/20
+!
+interface GigabitEthernet1/0/21
+!
+interface GigabitEthernet1/0/22
+!
+interface GigabitEthernet1/0/23
+ channel-group 1 mode passive
+!
+interface GigabitEthernet1/0/24
+ switchport mode trunk
+ channel-group 1 mode passive
+!
+interface GigabitEthernet1/1/1
+ description to_Hrustalnaya_22A
+ channel-group 1 mode passive
+!
+interface GigabitEthernet1/1/2
+!
+interface GigabitEthernet1/1/3
+!
+interface GigabitEthernet1/1/4
+!
+interface TenGigabitEthernet1/1/1
+!
+interface TenGigabitEthernet1/1/2
+!
+interface TenGigabitEthernet1/1/3
+!
+interface TenGigabitEthernet1/1/4
+!
+interface GigabitEthernet2/0/1
+ description MEGAFON_L3_VPN
+ switchport access vlan 24
+ switchport trunk allowed vlan 491,2021,2395
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/2
+ switchport trunk allowed vlan 15,253,488
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/3
+ description LNSK_GVRV
+ switchport access vlan 15
+ switchport mode access
+!
+interface GigabitEthernet2/0/4
+!
+interface GigabitEthernet2/0/5
+ description MITROfANIEVSKOY
+ switchport access vlan 491
+ switchport mode access
+!
+interface GigabitEthernet2/0/6
+!
+interface GigabitEthernet2/0/7
+ description MSKW_DSL_TAIL
+ switchport access vlan 500
+ switchport mode access
+!
+interface GigabitEthernet2/0/8
+ description ReSERV_UPLINK_MSKW
+ switchport access vlan 500
+!
+interface GigabitEthernet2/0/9
+!
+interface GigabitEthernet2/0/10
+!
+interface GigabitEthernet2/0/11
+!
+interface GigabitEthernet2/0/12
+ switchport access vlan 24
+ switchport mode access
+!
+interface GigabitEthernet2/0/13
+!
+interface GigabitEthernet2/0/14
+!
+interface GigabitEthernet2/0/15
+!
+interface GigabitEthernet2/0/16
+!
+interface GigabitEthernet2/0/17
+!
+interface GigabitEthernet2/0/18
+!
+interface GigabitEthernet2/0/19
+!
+interface GigabitEthernet2/0/20
+!
+interface GigabitEthernet2/0/21
+ switchport access vlan 24
+ switchport mode access
+!
+interface GigabitEthernet2/0/22
+ switchport access vlan 15
+ switchport mode access
+!
+interface GigabitEthernet2/0/23
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/24
+ switchport access vlan 24
+ switchport mode access
+!
+interface GigabitEthernet2/1/1
+ description to_Hrustalnaya_22A
+ channel-group 1 mode passive
+!
+interface GigabitEthernet2/1/2
+!
+interface GigabitEthernet2/1/3
+!
+interface GigabitEthernet2/1/4
+!
+interface TenGigabitEthernet2/1/1
+!
+interface TenGigabitEthernet2/1/2
+!
+interface TenGigabitEthernet2/1/3
+!
+interface TenGigabitEthernet2/1/4
+!
+interface Vlan1
+ no ip address
+!
+interface Vlan10
+ ip address 172.16.10.1 255.255.255.0
+ ip pim sparse-mode
+!
+interface Vlan15
+ ip address 192.168.9.3 255.255.255.0
+!
+interface Vlan500
+ no ip address
+!
+interface Vlan501
+ ip address 172.18.12.1 255.255.255.0
+ ip pim sparse-mode
+!
+interface Vlan502
+ ip address 172.18.8.1 255.255.255.0
+!
+interface Vlan503
+ ip address 172.18.40.1 255.255.255.0
+ ip pim sparse-mode
+!
+router ospf 1
+ router-id 172.18.255.55
+ network 172.16.0.0 0.0.255.255 area 0
+ network 172.18.0.0 0.0.255.255 area 0
+!
+ip forward-protocol nd
+ip pim rp-address 172.18.255.10
+ip http server
+ip http authentication local
+ip http secure-server
+!
+ip route 172.16.200.0 255.255.255.0 192.168.9.254
+!
+!
+logging facility local6
+logging host 172.16.10.250
+!
+snmp-server community a4fa17d8fb RO
+!
+!
+!
+!
+!
+line con 0
+ stopbits 1
+line aux 0
+ stopbits 1
+line vty 0 4
+ exec-timeout 90 0
+ logging synchronous
+ transport input ssh
+line vty 5 15
+!
+ntp server 172.16.10.254 prefer
+wsma agent exec
+ profile httplistener
+ profile httpslistener
+!
+wsma agent config
+ profile httplistener
+ profile httpslistener
+!
+wsma agent filesys
+ profile httplistener
+ profile httpslistener
+!
+wsma agent notify
+ profile httplistener
+ profile httpslistener
+!
+!
+wsma profile listener httplistener
+ transport http
+!
+wsma profile listener httpslistener
+ transport https
+!
+ap group default-group
+end
+
+SALOVA-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+SALOVA-SR-1#
+DEBUG:netmiko:Pattern found: # 
+SALOVA-SR-1#
+DEBUG:netmiko:exit_config_mode: 
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:netmiko:read_channel: 
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Current configuration : 10813 bytes
+!
+! Last configuration change at 13:32:35 UTC Tue Mar 31 2020 by cisco
+!
+version 15.2
+no service pad
+service timestamps debug datetime msec localtime show-timezone
+service timestamps log datetime msec
+service password-encryption
+service compress-config
+service unsupported-transceiver
+!
+hostname HRUST-A207-SR-1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+enable password 7 13220216040800787B7578
+!
+username cisco privilege 15 password 7 15351E080B2E2F76786265
+aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+aaa session-id common
+switch 1 provision ws-c3850-48t
+switch 2 provision ws-c3850-48t
+!
+!
+!
+!
+!
+coap http enable
+!
+!
+!
+!
+!
+!
+!
+ip domain-name cudd.local
+!
+!
+qos queue-softmax-multiplier 100
+!
+crypto pki trustpoint TP-self-signed-568318041
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-568318041
+ revocation-check none
+ rsakeypair TP-self-signed-568318041
+!
+!
+crypto pki certificate chain TP-self-signed-568318041
+ certificate self-signed 01
+  30820229 30820192 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  30312E30 2C060355 04031325 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 35363833 31383034 31301E17 0D313730 31323031 35323330 
+  375A170D 32303031 30313030 30303030 5A303031 2E302C06 03550403 1325494F 
+  532D5365 6C662D53 69676E65 642D4365 72746966 69636174 652D3536 38333138 
+  30343130 819F300D 06092A86 4886F70D 01010105 0003818D 00308189 02818100 
+  AD6D2AEB 9D1BF689 5E180DB9 7DC735EC D3A368D2 136F5E82 E709ADFB 1BF20E23 
+  19ABE891 4C041632 906E474F A6E5440F 0178A277 518679C7 FED9D484 9073B0D8 
+  AFE3D74A 29760612 CD5BE34B A5725E3B D92E3B14 0909A9CB AFE411F6 B31A0833 
+  12AD90A7 A476BE9C C8E8302E 04858E49 AEF220BB 9DD40357 5489CE6C 232347F9 
+  02030100 01A35330 51300F06 03551D13 0101FF04 05300301 01FF301F 0603551D 
+  23041830 1680141C 6BDBE70F BEBE4080 146A9B2D 5F104F4F BC66FF30 1D060355 
+  1D0E0416 04141C6B DBE70FBE BE408014 6A9B2D5F 104F4FBC 66FF300D 06092A86 
+  4886F70D 01010505 00038181 007061F9 240B3FA4 3641C18D B50B0A53 08628C04 
+  DBF30C0B 4C3274AA A15C9C21 FF835D71 7EB00F21 1BABD708 85A7FC3F ABEA7DEB 
+  635293A5 76B3E2D1 1645C190 7085869D A82EA9C7 6E60B9D1 8FDEF7C5 64CB6047 
+  80F8F088 6D23C454 604DE205 C6BB953D 9E3DEE76 306D7695 2B3BE70B D6FA8BF2 
+  E1C619B0 B12FA55D 13FD8B60 C0
+  	quit
+no errdisable detect cause gbic-invalid
+diagnostic bootup level minimal
+archive
+ log config
+  logging enable
+  hidekeys
+ path ftp://192.168.9.19/cisco/conf/$H-$T
+ write-memory
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+hw-switch switch 1 logging onboard message level 3
+hw-switch switch 2 logging onboard message level 3
+!
+redundancy
+ mode sso
+!
+!
+!
+class-map match-any non-client-nrt-class
+!
+policy-map port_child_policy
+ class non-client-nrt-class
+  bandwidth remaining ratio 10
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Port-channel11
+ description description ASUDD-1-HA-CLUSTER
+ switchport mode trunk
+!
+interface Port-channel12
+ description description ASUDD-2-HA-CLUSTER
+ switchport mode trunk
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ no ip address
+ negotiation auto
+!
+interface GigabitEthernet1/0/1
+ description PELCO-SM5200_main_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/2
+ description PELCO-NSM5200-1_main_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/3
+ description PELCO-NSM5200-2_main_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/4
+ description PELCO-NSM5200-3_main_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet1/0/5
+ description ASUDD-207-1-1_vmnic0
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet1/0/6
+ description ASUDD-207-1-1_vmnic2
+ switchport mode trunk
+ channel-group 11 mode active
+!
+interface GigabitEthernet1/0/7
+ description ASUDD-207-1-2_vmnic0
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet1/0/8
+ description ASUDD-207-1-2_vmnic2
+ switchport mode trunk
+ channel-group 12 mode active
+!
+interface GigabitEthernet1/0/9
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet1/0/10
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet1/0/11
+ description HP-SRV
+ switchport access vlan 20
+ switchport mode access
+!
+interface GigabitEthernet1/0/12
+ shutdown
+!
+interface GigabitEthernet1/0/13
+ shutdown
+!
+interface GigabitEthernet1/0/14
+ shutdown
+!
+interface GigabitEthernet1/0/15
+ shutdown
+!
+interface GigabitEthernet1/0/16
+ shutdown
+!
+interface GigabitEthernet1/0/17
+ shutdown
+!
+interface GigabitEthernet1/0/18
+ shutdown
+!
+interface GigabitEthernet1/0/19
+ shutdown
+!
+interface GigabitEthernet1/0/20
+ shutdown
+!
+interface GigabitEthernet1/0/21
+ shutdown
+!
+interface GigabitEthernet1/0/22
+ shutdown
+!
+interface GigabitEthernet1/0/23
+ shutdown
+!
+interface GigabitEthernet1/0/24
+ shutdown
+!
+interface GigabitEthernet1/0/25
+ shutdown
+!
+interface GigabitEthernet1/0/26
+ shutdown
+!
+interface GigabitEthernet1/0/27
+ shutdown
+!
+interface GigabitEthernet1/0/28
+ shutdown
+!
+interface GigabitEthernet1/0/29
+ shutdown
+!
+interface GigabitEthernet1/0/30
+ shutdown
+!
+interface GigabitEthernet1/0/31
+ shutdown
+!
+interface GigabitEthernet1/0/32
+ shutdown
+!
+interface GigabitEthernet1/0/33
+ shutdown
+!
+interface GigabitEthernet1/0/34
+ shutdown
+!
+interface GigabitEthernet1/0/35
+ shutdown
+!
+interface GigabitEthernet1/0/36
+ shutdown
+!
+interface GigabitEthernet1/0/37
+ shutdown
+!
+interface GigabitEthernet1/0/38
+ shutdown
+!
+interface GigabitEthernet1/0/39
+ shutdown
+!
+interface GigabitEthernet1/0/40
+ shutdown
+!
+interface GigabitEthernet1/0/41
+ shutdown
+!
+interface GigabitEthernet1/0/42
+ shutdown
+!
+interface GigabitEthernet1/0/43
+ shutdown
+!
+interface GigabitEthernet1/0/44
+ shutdown
+!
+interface GigabitEthernet1/0/45
+ shutdown
+!
+interface GigabitEthernet1/0/46
+ shutdown
+!
+interface GigabitEthernet1/0/47
+ shutdown
+!
+interface GigabitEthernet1/0/48
+ switchport mode trunk
+!
+interface GigabitEthernet1/1/1
+!
+interface GigabitEthernet1/1/2
+!
+interface GigabitEthernet1/1/3
+!
+interface GigabitEthernet1/1/4
+ switchport mode trunk
+!
+interface TenGigabitEthernet1/1/1
+!
+interface TenGigabitEthernet1/1/2
+!
+interface TenGigabitEthernet1/1/3
+!
+interface TenGigabitEthernet1/1/4
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/1
+ description PELCO-SM5200_ext_int
+ switchport access vlan 25
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/2
+ description PELCO-NSM5200-1_ext_int
+ switchport access vlan 25
+ switchport mode access
+ shutdown
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/3
+ description PELCO-NSM5200-2_ext_int
+ switchport access vlan 25
+ switchport mode access
+ shutdown
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/4
+ description PELCO-NSM5200-3_ext_int
+ switchport access vlan 25
+ switchport mode access
+ shutdown
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/5
+ description ASUDD-207-1-1_vmnic3
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet2/0/6
+ description ASUDD-207-1-1_vmnic1
+ switchport mode trunk
+ channel-group 11 mode active
+!
+interface GigabitEthernet2/0/7
+ description ASUDD-207-1-2_vmnic3
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet2/0/8
+ description ASUDD-207-1-2_vmnic1
+ switchport mode trunk
+ channel-group 12 mode active
+!
+interface GigabitEthernet2/0/9
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet2/0/10
+ switchport access vlan 23
+ switchport mode access
+!
+interface GigabitEthernet2/0/11
+ shutdown
+!
+interface GigabitEthernet2/0/12
+ shutdown
+!
+interface GigabitEthernet2/0/13
+ shutdown
+!
+interface GigabitEthernet2/0/14
+ shutdown
+!
+interface GigabitEthernet2/0/15
+ shutdown
+!
+interface GigabitEthernet2/0/16
+ shutdown
+!
+interface GigabitEthernet2/0/17
+ shutdown
+!
+interface GigabitEthernet2/0/18
+ shutdown
+!
+interface GigabitEthernet2/0/19
+ shutdown
+!
+interface GigabitEthernet2/0/20
+ shutdown
+!
+interface GigabitEthernet2/0/21
+ shutdown
+!
+interface GigabitEthernet2/0/22
+ shutdown
+!
+interface GigabitEthernet2/0/23
+ shutdown
+!
+interface GigabitEthernet2/0/24
+ shutdown
+!
+interface GigabitEthernet2/0/25
+ shutdown
+!
+interface GigabitEthernet2/0/26
+ shutdown
+!
+interface GigabitEthernet2/0/27
+ shutdown
+!
+interface GigabitEthernet2/0/28
+ shutdown
+!
+interface GigabitEthernet2/0/29
+ shutdown
+!
+interface GigabitEthernet2/0/30
+ shutdown
+!
+interface GigabitEthernet2/0/31
+ shutdown
+!
+interface GigabitEthernet2/0/32
+ shutdown
+!
+interface GigabitEthernet2/0/33
+ switchport access vlan 31
+ switchport mode access
+!
+interface GigabitEthernet2/0/34
+ shutdown
+!
+interface GigabitEthernet2/0/35
+ description IMM_ASUDD-207-1-1
+ switchport access vlan 15
+ switchport mode access
+!
+interface GigabitEthernet2/0/36
+ description IMM_ASUDD-207-1-2
+ switchport access vlan 15
+ switchport mode access
+!
+interface GigabitEthernet2/0/37
+ shutdown
+!
+interface GigabitEthernet2/0/38
+ shutdown
+!
+interface GigabitEthernet2/0/39
+ shutdown
+!
+interface GigabitEthernet2/0/40
+ shutdown
+!
+interface GigabitEthernet2/0/41
+ shutdown
+!
+interface GigabitEthernet2/0/42
+ shutdown
+!
+interface GigabitEthernet2/0/43
+ shutdown
+!
+interface GigabitEthernet2/0/44
+ shutdown
+!
+interface GigabitEthernet2/0/45
+ shutdown
+!
+interface GigabitEthernet2/0/46
+ shutdown
+!
+interface GigabitEthernet2/0/47
+ shutdown
+!
+interface GigabitEthernet2/0/48
+ shutdown
+!
+interface GigabitEthernet2/1/1
+!
+interface GigabitEthernet2/1/2
+!
+interface GigabitEthernet2/1/3
+!
+interface GigabitEthernet2/1/4
+ switchport mode trunk
+!
+interface TenGigabitEthernet2/1/1
+!
+interface TenGigabitEthernet2/1/2
+!
+interface TenGigabitEthernet2/1/3
+ switchport mode trunk
+!
+interface TenGigabitEthernet2/1/4
+ switchport mode trunk
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan10
+ ip address 172.16.10.3 255.255.255.0
+!
+ip forward-protocol nd
+ip http server
+ip http authentication local
+ip http secure-server
+ip ftp username cisco
+ip ftp password 7 01341300540F025D711D1E
+ip ssh version 2
+!
+!
+logging host 172.16.10.250
+!
+snmp-server community a4fa17d8fb RO
+!
+!
+!
+!
+line con 0
+ stopbits 1
+line aux 0
+ stopbits 1
+line vty 0 4
+ exec-timeout 90 0
+ logging synchronous
+ transport input ssh
+line vty 5 15
+!
+wsma agent exec
+ profile httplistener
+ profile httpslistener
+!
+wsma agent config
+ profile httplistener
+ profile httpslistener
+!
+wsma agent filesys
+ profile httplistener
+ profile httpslistener
+!
+wsma agent notify
+ profile httplistener
+ profile httpslistener
+!
+!
+wsma profile listener httplistener
+ transport http
+!
+wsma profile listener httpslistener
+ transport https
+!
+ap group default-group
+end
+
+HRUST-A207-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:_read_channel_expect read_data: HRUST-A207-SR-1#
+DEBUG:netmiko:Pattern found: # 
+HRUST-A207-SR-1#
+DEBUG:netmiko:exit_config_mode: 
+DEBUG:netmiko:write_channel: b'exit\n'
+DEBUG:paramiko.transport:EOF in transport thread
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+DEBUG:netmiko:read_channel: 
+Current configuration : 15554 bytes
+!
+! Last configuration change at 13:06:31 MSK Mon Apr 27 2020 by Cisco
+! NVRAM config last updated at 11:59:53 MSK Mon Mar 30 2020 by cisco
+!
+version 15.2
+no service pad
+service timestamps debug datetime msec localtime show-timezone
+service timestamps log datetime msec localtime show-timezone
+service password-encryption
+service compress-config
+service unsupported-transceiver
+!
+hostname HRUST-A206-SR-1
+!
+boot-start-marker
+boot-end-marker
+!
+!
+vrf definition Mgmt-vrf
+ !
+ address-family ipv4
+ exit-address-family
+ !
+ address-family ipv6
+ exit-address-family
+!
+enable secret 5 $1$PJ57$cKxZaNvVM8d8eVMCsleVn/
+!
+username Cisco secret 5 $1$kAZS$ZW0TaMFZa7ErKApv666LT1
+aaa new-model
+!
+!
+!
+!
+!
+!
+!
+!
+aaa session-id common
+clock timezone MSK 3 0
+switch 1 provision ws-c3850-24s
+switch 2 provision ws-c3850-24t
+!
+!
+!
+!
+!
+coap http enable
+!
+!
+!
+!
+!
+!
+ip routing
+!
+ip multicast-routing 
+no ip domain-lookup
+ip domain-name cudd.local
+!
+!
+qos queue-softmax-multiplier 100
+!
+crypto pki trustpoint TP-self-signed-3376449872
+ enrollment selfsigned
+ subject-name cn=IOS-Self-Signed-Certificate-3376449872
+ revocation-check none
+ rsakeypair TP-self-signed-3376449872
+!
+!
+crypto pki certificate chain TP-self-signed-3376449872
+ certificate self-signed 01
+  3082022B 30820194 A0030201 02020101 300D0609 2A864886 F70D0101 05050030 
+  31312F30 2D060355 04031326 494F532D 53656C66 2D536967 6E65642D 43657274 
+  69666963 6174652D 33333736 34343938 3732301E 170D3136 31323231 31323333 
+  33345A17 0D323030 31303130 30303030 305A3031 312F302D 06035504 03132649 
+  4F532D53 656C662D 5369676E 65642D43 65727469 66696361 74652D33 33373634 
+  34393837 3230819F 300D0609 2A864886 F70D0101 01050003 818D0030 81890281 
+  8100C0AB D4DCFF92 BBCD81F7 19A50B68 A9EF9E07 2BEA9228 8C353E4F 0641BD25 
+  D94716FD 6A292538 6C8B882E BEE760EC B0BB448B 253A04EB 88221B66 862313D3 
+  CC8471E6 CADF140C 81B4E8D0 EB0F6DCF E9043261 CC43CEAD 667FA4A7 D3A7DDB9 
+  96FDB1B3 F6137AFD DADCF9B6 0E825B3A 3A16C9C9 9B0CE0E3 B2E3A894 9B3B376E 
+  00850203 010001A3 53305130 0F060355 1D130101 FF040530 030101FF 301F0603 
+  551D2304 18301680 148B7966 520EF124 B0FC4860 E3FAF3CC 9CEF3E1D D7301D06 
+  03551D0E 04160414 8B796652 0EF124B0 FC4860E3 FAF3CC9C EF3E1DD7 300D0609 
+  2A864886 F70D0101 05050003 8181002E 5AFB05BB F25A57BD 847933D5 24A91758 
+  96092308 5B1C7E69 8F2F59D2 95AB9E50 48511988 78BDFF59 DED1424D 709A4EBD 
+  71CFAB0E FAFBAC7F C965888E 458BF2B8 70D3E2BA 8C581F3A C5E59405 5AE8B770 
+  13B1D8F7 AFCCB885 1D99D497 CA6FC4E6 0705ED87 E2D276DA 8D73FC3B 6912DA05 
+  6060D985 1F6312FD 75DD98D4 E6E15F
+  	quit
+no errdisable detect cause gbic-invalid
+no errdisable detect cause sfp-config-mismatch
+errdisable recovery cause loopback
+diagnostic bootup level minimal
+archive
+ log config
+  logging enable
+  hidekeys
+ path ftp://192.168.9.19/cisco/conf/$H-$T
+ write-memory
+!
+spanning-tree mode rapid-pvst
+spanning-tree extend system-id
+no spanning-tree vlan 505,521
+hw-switch switch 1 logging onboard message level 3
+hw-switch switch 2 logging onboard message level 3
+!
+redundancy
+ mode sso
+!
+!
+vlan 2020
+ name PSKR-VBRG-PRSV
+!
+vlan 2021
+ name KNTM
+!
+vlan 2023 
+!
+vlan 2025
+ name CNTR
+!
+vlan 2026 
+!
+vlan 2395
+ name SVKN
+!
+!
+class-map match-any non-client-nrt-class
+!
+policy-map port_child_policy
+ class non-client-nrt-class
+  bandwidth remaining ratio 10
+!
+! 
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+!
+interface Loopback0
+ ip address 172.18.255.1 255.255.255.255
+!
+interface Port-channel1
+ description Salova66
+ switchport mode trunk
+!
+interface Port-channel2
+ description LIT_B:Cisco_ME3400
+ switchport trunk allowed vlan 10,17,20,24,170,254
+ switchport mode trunk
+!
+interface Port-channel10
+ description TEMP_TO_CORE
+ switchport mode trunk
+!
+interface Tunnel1
+ ip address 192.168.170.1 255.255.255.252
+ ip tcp adjust-mss 1438
+ tunnel source Vlan101
+ tunnel destination 10.0.50.190
+!
+interface Tunnel10
+ ip address 192.168.170.5 255.255.255.252
+ ip tcp adjust-mss 1100
+ tunnel source Vlan101
+ tunnel destination 10.0.49.32
+!
+interface Tunnel15
+ ip address 192.168.170.17 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.64
+!
+interface Tunnel16
+ ip address 192.168.170.21 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.41
+!
+interface Tunnel17
+ ip address 192.168.170.25 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.46
+!
+interface Tunnel18
+ ip address 192.168.170.29 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.207
+!
+interface Tunnel19
+ ip address 192.168.170.33 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.138
+!
+interface Tunnel20
+ ip address 192.168.170.37 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.137
+!
+interface Tunnel21
+ ip address 192.168.170.41 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.136
+!
+interface Tunnel22
+ ip address 192.168.170.85 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.74
+!
+interface Tunnel23
+ ip address 192.168.170.45 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.104
+!
+interface Tunnel24
+ ip address 192.168.170.49 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.91
+!
+interface Tunnel25
+ ip address 192.168.170.81 255.255.255.252
+ ip tcp adjust-mss 1232
+ tunnel source Vlan101
+ tunnel destination 10.0.48.73
+!
+interface Tunnel26
+ ip address 192.168.170.53 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.22
+!
+interface Tunnel27
+ ip address 192.168.170.57 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.192
+!
+interface Tunnel28
+ ip address 192.168.170.61 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.49.49
+!
+interface Tunnel29
+ ip address 192.168.170.65 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.28
+!
+interface Tunnel30
+ ip address 192.168.170.69 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.48.76
+!
+interface Tunnel31
+ ip address 192.168.170.73 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.52.62
+!
+interface Tunnel32
+ ip address 192.168.170.77 255.255.255.252
+ ip tcp adjust-mss 1238
+ tunnel source Vlan101
+ tunnel destination 10.0.50.194
+!
+interface GigabitEthernet0/0
+ vrf forwarding Mgmt-vrf
+ no ip address
+ negotiation auto
+!
+interface GigabitEthernet1/0/1
+ description MEGAFON_VPLS
+ switchport trunk allowed vlan 217,925,2020,2023,2025
+ switchport mode trunk
+ no cdp enable
+!
+interface GigabitEthernet1/0/2
+!
+interface GigabitEthernet1/0/3
+ switchport trunk allowed vlan 510,582
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/4
+ description BO_LEFT_SIDE
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/5
+!
+interface GigabitEthernet1/0/6
+!
+interface GigabitEthernet1/0/7
+ description EMTS_VPLS
+ switchport trunk allowed vlan 521,2026
+ switchport mode trunk
+ no cdp enable
+ spanning-tree bpdufilter enable
+!
+interface GigabitEthernet1/0/8
+!
+interface GigabitEthernet1/0/9
+!
+interface GigabitEthernet1/0/10
+!
+interface GigabitEthernet1/0/11
+!
+interface GigabitEthernet1/0/12
+!
+interface GigabitEthernet1/0/13
+!
+interface GigabitEthernet1/0/14
+!
+interface GigabitEthernet1/0/15
+!
+interface GigabitEthernet1/0/16
+!
+interface GigabitEthernet1/0/17
+ switchport access vlan 24
+ switchport mode access
+ shutdown
+!
+interface GigabitEthernet1/0/18
+ switchport access vlan 24
+ switchport mode access
+ shutdown
+!
+interface GigabitEthernet1/0/19
+!
+interface GigabitEthernet1/0/20
+ description s33-hrustalnaya22b.nev:gig0/0/3
+ switchport trunk allowed vlan 101,120,170,472,488
+ switchport mode trunk
+ no cdp enable
+!
+interface GigabitEthernet1/0/21
+ switchport trunk allowed vlan 10,17,20,24,170,254
+ switchport mode trunk
+ channel-group 2 mode active
+!
+interface GigabitEthernet1/0/22
+ description LIT_B
+ switchport mode trunk
+!
+interface GigabitEthernet1/0/23
+ switchport mode trunk
+ channel-group 1 mode active
+!
+interface GigabitEthernet1/0/24
+ switchport mode trunk
+ channel-group 1 mode active
+!
+interface GigabitEthernet1/1/1
+!
+interface GigabitEthernet1/1/2
+!
+interface GigabitEthernet1/1/3
+!
+interface GigabitEthernet1/1/4
+!
+interface TenGigabitEthernet1/1/1
+!
+interface TenGigabitEthernet1/1/2
+!
+interface TenGigabitEthernet1/1/3
+!
+interface TenGigabitEthernet1/1/4
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/1
+ description SOFIYSKAY
+ switchport access vlan 498
+ switchport mode access
+!
+interface GigabitEthernet2/0/2
+ description SOFIYSKAY
+ switchport access vlan 498
+ switchport mode access
+!
+interface GigabitEthernet2/0/3
+ description NARODNAYA-TIPANOVA-SLAVI
+ switchport access vlan 497
+ switchport mode access
+!
+interface GigabitEthernet2/0/4
+ description MTS_PETERGOFSKOE
+ switchport access vlan 505
+ switchport mode access
+ no cdp enable
+ spanning-tree portfast trunk
+!
+interface GigabitEthernet2/0/5
+ switchport access vlan 20
+ switchport mode access
+!
+interface GigabitEthernet2/0/6
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/7
+ switchport access vlan 20
+ switchport mode access
+!
+interface GigabitEthernet2/0/8
+ switchport access vlan 25
+ switchport mode access
+!
+interface GigabitEthernet2/0/9
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/10
+ description HRUST-A302-SW-1
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/11
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/12
+ switchport access vlan 20
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/13
+ description ENDURA-HD-DECODER-1
+ switchport access vlan 25
+ switchport mode access
+!
+interface GigabitEthernet2/0/14
+ description AVAYA_VOIP
+ switchport access vlan 472
+ switchport mode access
+ no cdp enable
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/15
+ switchport access vlan 521
+!
+interface GigabitEthernet2/0/16
+!
+interface GigabitEthernet2/0/17
+ switchport trunk native vlan 20
+ switchport trunk allowed vlan 20,25,26
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/18
+ shutdown
+!
+interface GigabitEthernet2/0/19
+ switchport trunk native vlan 20
+ switchport trunk allowed vlan 2-21,23-26,101,254,498,1122,2020
+ switchport mode trunk
+!
+interface GigabitEthernet2/0/20
+ shutdown
+!
+interface GigabitEthernet2/0/21
+ switchport access vlan 20
+ switchport mode access
+ spanning-tree portfast
+!
+interface GigabitEthernet2/0/22
+ switchport access vlan 506
+ switchport mode access
+!
+interface GigabitEthernet2/0/23
+ switchport mode trunk
+ channel-group 10 mode active
+!
+interface GigabitEthernet2/0/24
+ switchport mode trunk
+ channel-group 10 mode active
+!
+interface GigabitEthernet2/1/1
+!
+interface GigabitEthernet2/1/2
+!
+interface GigabitEthernet2/1/3
+!
+interface GigabitEthernet2/1/4
+!
+interface TenGigabitEthernet2/1/1
+!
+interface TenGigabitEthernet2/1/2
+!
+interface TenGigabitEthernet2/1/3
+!
+interface TenGigabitEthernet2/1/4
+ no switchport
+ no ip address
+!
+interface Vlan1
+ no ip address
+ shutdown
+!
+interface Vlan10
+ ip address 172.16.10.2 255.255.255.0
+ ip pim sparse-mode
+!
+interface Vlan11
+ description was_192.168.142.47
+ ip address 172.16.16.1 255.255.255.0
+!
+interface Vlan15
+ ip address 192.168.9.2 255.255.255.0
+!
+interface Vlan18
+ ip address 192.168.80.233 255.255.255.0
+ shutdown
+!
+interface Vlan19
+ ip address 192.168.101.1 255.255.255.0
+!
+interface Vlan20
+ ip address 192.168.7.204 255.255.252.0
+!
+interface Vlan101
+ ip address 10.0.55.120 255.255.255.192
+!
+interface Vlan120
+ no ip address
+!
+interface Vlan170
+ ip address 10.217.9.240 255.255.255.192
+!
+interface Vlan210
+ no ip address
+ ip pim dense-mode
+!
+interface Vlan217
+ ip address 172.18.21.1 255.255.255.0
+!
+interface Vlan251
+ no ip address
+!
+interface Vlan488
+ ip address 10.6.128.163 255.255.255.240
+!
+interface Vlan497
+ ip address 172.18.11.1 255.255.255.0
+!
+interface Vlan500
+ ip address 172.18.14.1 255.255.255.0
+!
+interface Vlan505
+ ip address 172.18.2.1 255.255.255.0
+ ip helper-address 192.168.9.251
+!
+interface Vlan506
+ ip address 172.18.22.1 255.255.255.0
+!
+interface Vlan507
+ ip address 172.18.23.1 255.255.255.0
+!
+interface Vlan508
+ no ip address
+!
+interface Vlan510
+ ip address 172.18.25.1 255.255.255.0
+ ip helper-address 192.168.9.251
+!
+interface Vlan511
+ ip address 172.18.17.1 255.255.255.0
+!
+interface Vlan521
+ no ip address
+ no ip proxy-arp
+!
+interface Vlan554
+ no ip address
+!
+interface Vlan581
+ ip address 172.18.50.1 255.255.255.0
+!
+interface Vlan582
+ ip address 172.18.51.1 255.255.255.0
+!
+interface Vlan925
+ ip address 172.18.52.1 255.255.255.0
+!
+interface Vlan2020
+ ip address 172.16.11.1 255.255.255.252
+ ip pim sparse-mode
+!
+interface Vlan2026
+ no ip address
+!
+router ospf 1
+ router-id 172.18.255.1
+ area 1 virtual-link 3.3.3.3
+ passive-interface Vlan15
+ network 172.16.11.0 0.0.0.255 area 1
+ network 172.16.0.0 0.0.255.255 area 0
+ network 172.18.52.0 0.0.0.255 area 0
+ network 172.0.0.0 0.255.255.255 area 1
+ network 192.168.0.0 0.0.255.255 area 0
+!
+ip forward-protocol nd
+ip pim rp-address 172.18.255.10
+ip pim bsr-candidate Vlan2020 0
+ip http server
+ip http authentication local
+ip http secure-server
+!
+ip ftp username cisco
+ip ftp password 7 052C130B2E484A5B495447
+ip route 0.0.0.0 0.0.0.0 172.16.10.4
+ip route 10.0.48.0 255.255.248.0 10.0.55.65
+ip route 10.128.0.0 255.255.0.0 192.168.7.210
+ip route 10.248.51.0 255.255.255.0 10.0.64.65
+ip route 172.16.200.0 255.255.255.0 192.168.9.254
+ip route 172.17.10.0 255.255.255.0 192.168.7.201
+ip route 172.18.14.0 255.255.255.0 192.168.9.10
+ip route 172.19.5.224 255.255.255.240 192.168.170.78
+ip route 172.19.13.176 255.255.255.240 192.168.170.82
+ip route 172.19.13.192 255.255.255.240 192.168.170.86
+ip route 172.19.14.64 255.255.255.240 192.168.170.70
+ip route 172.19.16.112 255.255.255.240 192.168.170.22
+ip route 172.19.16.160 255.255.255.240 192.168.170.6
+ip route 172.19.18.128 255.255.255.240 192.168.170.54
+ip route 172.19.18.160 255.255.255.240 192.168.170.26
+ip route 172.19.19.32 255.255.255.240 192.168.170.74
+ip route 172.19.19.48 255.255.255.240 192.168.170.66
+ip route 172.19.19.192 255.255.255.240 192.168.170.18
+ip route 172.19.20.112 255.255.255.240 192.168.170.58
+ip route 172.19.21.240 255.255.255.240 192.168.170.62
+ip route 172.19.23.208 255.255.255.240 192.168.170.34
+ip route 172.19.23.224 255.255.255.240 192.168.170.42
+ip route 172.19.23.240 255.255.255.240 192.168.170.38
+ip route 172.19.24.16 255.255.255.240 192.168.170.50
+ip route 172.19.26.112 255.255.255.240 192.168.170.46
+ip route 172.19.222.0 255.255.255.0 192.168.170.30
+ip route 172.19.253.0 255.255.255.240 192.168.170.2
+!
+!
+logging facility local3
+logging host 172.16.10.250
+!
+snmp-server community a4fa17d8fb RO
+!
+!
+!
+!
+!
+line con 0
+ stopbits 1
+line aux 0
+ stopbits 1
+line vty 0 4
+ exec-timeout 90 0
+ logging synchronous
+ transport input ssh
+line vty 5 15
+!
+ntp master 2
+ntp server 172.16.10.254 prefer
+wsma agent exec
+ profile httplistener
+ profile httpslistener
+!
+wsma agent config
+ profile httplistener
+ profile httpslistener
+!
+wsma agent filesys
+ profile httplistener
+ profile httpslistener
+!
+wsma agent notify
+ profile httplistener
+ profile httpslistener
+!
+!
+wsma profile listener httplistener
+ transport http
+!
+wsma profile listener httpslistener
+ transport https
+mac address-table notification mac-move
+!
+ap group default-group
+end
+
+HRUST-A206-SR-1#
+DEBUG:netmiko:write_channel: b'\n'
+DEBUG:netmiko:Pattern is: #
+DEBUG:netmiko:_read_channel_expect read_data: 
+HRUST-A206-SR-1#
+DEBUG:netmiko:Pattern found: # 
+HRUST-A206-SR-1#
+DEBUG:netmiko:exit_config_mode: 
+DEBUG:netmiko:write_channel: b'exit\n'
