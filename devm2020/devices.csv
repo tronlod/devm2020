@@ -1,5 +1,0 @@
-hostname,ip,username,password,secret,device_type
-R1,172.16.10.1,cisco,Gudodd2010,Gudodd2010,cisco_ios
-R2,172.16.10.2,cisco,Gudodd2010,Gudodd2010,cisco_ios
-R3,172.16.10.3,cisco,Gudodd2010,Gudodd2010,cisco_ios
-
